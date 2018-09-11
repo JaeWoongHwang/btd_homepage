@@ -1,0 +1,34 @@
+<!--Functions -->
+<script>
+  var xhttp = new XMLHttpRequest();
+
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      new fullpage('#fullpage', {
+        //Options
+        anchors: ["home", "service", "team", "contact"],
+        menu: "#myMenu",
+        autoScrolling: true,
+        scrollHorizontally: true,
+        loopBottom: true,
+        navigation: true,
+        licenseKey: xhttp.responseText
+      });
+      fullpage_api.setAllowScrolling(true);
+    }
+  };
+
+  function getCSRFToken() {
+   var metas = document.getElementsByTagName('meta');
+
+   for (var i=0; i<metas.length; i++) {
+      if (metas[i].getAttribute("name") == "csrf-token") {
+         return metas[i].getAttribute("content");
+      }
+   }
+    return "";
+  }
+  xhttp.open("POST", '/home/get_fullpage',  true);
+  xhttp.setRequestHeader("X-CSRF-Token", getCSRFToken());
+  xhttp.send();
+</script>

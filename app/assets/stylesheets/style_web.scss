@@ -1,0 +1,55 @@
+/* PC 및 노트북 ----------- */
+@media only screen and (min-width: 1224px) {
+  // Overall Section
+  .overall-text-company p{
+    font-size: 1.5em;
+  }
+  .overall-text-title p{
+    font-size: 3em;
+  }
+  .overall-text-content p{
+    font-size: 1.5em;
+  }
+  .overall-section-wrapper{
+    background-image: url(overall_image_pc.png);
+    background-size: cover;
+  }
+  // Service Section
+  .service-category-section p{
+    font-size: 1.2em;
+  }
+  .service-name-section p{
+    font-size: 3em;
+  }
+  .service-description-section p{
+    font-size: 1em;
+  }
+  // Team Section
+  // Contact Section
+  .contact-content-wrapper{
+    flex-direction: column;
+  }
+  .contact-text-block{
+    height: 40%;
+    width: 100%;
+    margin-left: 5em;
+  }
+  .contact-text-title p{
+    font-size: 3em;
+  }
+  .contact-text-description p{
+    font-size: 1.2em;
+  }
+  .contact-empty-block{
+    height: 5%;
+    width: 100%;
+  }
+  .contact-map-block{
+    height: 40%;
+    width: 100%;
+    margin-left: 5em;
+  }
+}
+/* 대형 스크린 ----------- */
+@media only screen and (min-width: 1824px) {
+}
