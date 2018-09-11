@@ -5,8 +5,10 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-image: url(overall_image_pc.png);
+  background-image: image-url("overall_image_pc.png");
+  background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 .overall-content-wrapper{
   height: 100%;

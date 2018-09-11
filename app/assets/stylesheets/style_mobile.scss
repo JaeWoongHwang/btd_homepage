@@ -11,7 +11,7 @@
     font-size: 1em;
   }
   .overall-section-wrapper{
-    background-image: url(overall_image_sp.png);
+    background-image: image-url("overall_image_sp.png");
     background-size: cover;
   }
   // Service Section
@@ -83,8 +83,12 @@
   .team-text-block p{
     font-size: 1.5em;
   }
-  .team-text-name p{
+  p.name{
     font-size: 0.8em;
+  }
+  p.position{
+    font-size: 0.5em;
+    margin-left: 1em;
   }
   .team-text-content p{
     font-size: 0em;
