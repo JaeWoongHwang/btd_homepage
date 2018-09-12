@@ -2,16 +2,16 @@
   <div class="contact-content-wrapper">
     <div class="contact-text-block">
       <div class="contact-text-title">
-        <p>Contact Us</p>
+        <p class="contact-text-effect">Contact Us</p>
       </div>
       <div class="contact-text-description">
-        <p>문의 : btd.information@gmail.com</p>
+        <p>문의:btd.information@gmail.com</p>
       </div>
       <div class="contact-text-button">
         <button type="button" name="button" class="contact-email-button">SEND E-MAIL</button>
       </div>
+      <div class="contact-empty-block">
     </div>
-    <div class="contact-empty-block">
     </div>
     <div class="contact-map-block">
       <div id="map" style="width:100%;height:400px;"></div>
@@ -19,6 +19,7 @@
   </div>
 </div>
 
+<!--Naver Map API  -->
 <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=cpw9RMOfkmb0qIa7Vz23&callback=initMap"></script>
 <!-- <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=XklzTKnGdUpepvQTZ08c&submodules=geocoder"></script> -->
 <script type="text/javascript">
@@ -58,5 +59,29 @@
       } else {
           infowindow.open(map, marker);
       }
+  });
+</script>
+
+<!--Text Effect  -->
+<script>
+  $('.contact-text-effect').each(function(){
+  $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+  });
+
+  anime.timeline({loop: true})
+  .add({
+    targets: '.contact-text-effect .letter',
+    translateY: [-100,0],
+    easing: "easeOutExpo",
+    duration: 3000,
+    delay: function(el, i) {
+      return 30 * i;
+    }
+  }).add({
+    targets: '.contact-text-effect',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 5000
   });
 </script>

@@ -5,8 +5,8 @@
   }
   // Overall Section
   .overall-section-wrapper{
-    background-image: image-url("overall_image_tb.png");
-    background-size: cover;
+    background-image: image-url("background_tb.png");
+    background-attachment: scroll;
   }
   // Service Section
   .service-category-section p{

@@ -19,15 +19,19 @@
   width: 100%;
   text-align: center;
 }
-p.title{
+.team-text-effect{
   font-family: OpenSans, sans-serif;
   font-size: 3em;
-  font-weight: bold;
   font-style: normal;
+  font-weight: bold;
   font-stretch: normal;
   line-height: normal;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
   color: #000;
+}
+.team-text-effect .letter{
+  display: inline-block;
+  line-height: 1em;
 }
 .team-introduction-wrapper{
   height: 80%;

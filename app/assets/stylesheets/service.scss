@@ -46,8 +46,8 @@
 .service-name-section p{
   font-family: OpenSans, sans-serif;
   font-size: 3em;
-  font-weight: bold;
   font-style: normal;
+  font-weight: bold;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: -2px;
@@ -77,16 +77,20 @@
   justify-content: center;
   align-items: center;
 }
+.service-text-effect .letter{
+  display: inline-block;
+  line-height: 1em;
+}
 .first-image{
-  background-image: image-url("first.png");
+  background-image: image-url("first_slide.jpeg");
   background-size: cover;
 }
 .second-image{
-  background-image: image-url("second.png");
+  background-image: image-url("second_slide.png");
   background-size: cover;
 }
 .third-image{
-  background-image: image-url("third.png");
+  background-image: image-url("third_slide.jpeg");
   background-size: cover;
 }
 .fp-controlArrow.fp-prev{

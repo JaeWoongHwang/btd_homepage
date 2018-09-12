@@ -11,8 +11,8 @@
     font-size: 1.5em;
   }
   .overall-section-wrapper{
-    background-image: image-url("overall_image_pc.png");
-    background-size: cover;
+    background-image: image-url("background_pc.png");
+    background-attachment: scroll;
   }
   // Service Section
   .service-category-section p{

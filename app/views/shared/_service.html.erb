@@ -3,13 +3,13 @@
     <div class="service-empty-block">
     </div>
     <div class="service-category-section">
-      <p>Our Survice</p>
+      <p class="service-text-effect">Our Survice</p>
     </div>
     <div class="service-name-section">
-      <p>FANTHE</p>
+      <p class="service-text-effect">FANTHE</p>
     </div>
     <div class="service-description-section">
-      <p>Service Description</p>
+      <p class="service-text-effect">Service Description</p>
     </div>
   </div>
   <div class="service-image-wrapper">
@@ -21,3 +21,26 @@
     </div>
   </div>
 </div>
+
+<script>
+  $('.service-text-effect').each(function(){
+    $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+  });
+
+  anime.timeline({loop: true})
+  .add({
+    targets: '.service-text-effect .letter',
+    translateY: [-100,0],
+    easing: "easeOutExpo",
+    duration: 3000,
+    delay: function(el, i) {
+      return 30 * i;
+    }
+  }).add({
+    targets: '.service-text-effect',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 5000
+  });
+</script>
