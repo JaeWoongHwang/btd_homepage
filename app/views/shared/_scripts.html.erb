@@ -1,13 +1,11 @@
 <!--Functions -->
-<script>
+<script type="text/javascript">
   var xhttp = new XMLHttpRequest();
 
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
       new fullpage('#fullpage', {
         //Options
-        anchors: ["home", "service", "team", "contact"],
-        menu: "#myMenu",
         autoScrolling: true,
         scrollHorizontally: true,
         loopBottom: true,
@@ -17,7 +15,6 @@
       fullpage_api.setAllowScrolling(true);
     }
   };
-
   function getCSRFToken() {
    var metas = document.getElementsByTagName('meta');
 

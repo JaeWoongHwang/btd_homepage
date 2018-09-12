@@ -48,7 +48,7 @@
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
   text-align: left;
   color: #757171;
 }
@@ -82,4 +82,12 @@
 .contact-map-block{
   height: 100%;
   width: 40%;
+}
+.iw_inner h4{
+  font-size: 1em;
+  color: #000000;
+}
+.iw_inner p{
+  font-size: 0.5em;
+  color: #959595;
 }
