@@ -7,9 +7,9 @@
   align-items: center;
   background-image: image-url("background_pc.png");
   /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
   background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
   background-size: cover;
 }
 .overall-content-wrapper{
