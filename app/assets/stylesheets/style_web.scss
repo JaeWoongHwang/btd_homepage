@@ -26,12 +26,7 @@
   }
   // Team Section
   // Contact Section
-  .contact-content-wrapper{
-    flex-direction: column;
-  }
   .contact-text-block{
-    height: 40%;
-    width: 100%;
     margin-left: 5em;
   }
   .contact-text-title p{
@@ -41,13 +36,7 @@
     font-size: 1.2em;
     margin-top: 1.5em;
   }
-  .contact-empty-block{
-    height: 5%;
-    width: 100%;
-  }
   .contact-map-block{
-    height: 40%;
-    width: 100%;
     margin-left: 5em;
   }
 }
