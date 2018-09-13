@@ -1,8 +1,5 @@
 /* iPad (세로) ----------- */
 @media only screen and (device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait) {
-  #navbar a{
-    font-size: 1em;
-  }
   // Overall Section
   .overall-section-wrapper{
     background-image: image-url("background_tb.png");
@@ -13,7 +10,7 @@
     font-size: 1em;
   }
   .service-name-section p{
-    font-size: 3em;
+    font-size: 4em;
   }
   .service-description-section p{
     font-size: 1.5em;
@@ -60,7 +57,7 @@
     width: 0%;
   }
   .team-text-block p{
-    font-size: 3em;
+    font-size: 4em;
   }
   .team-text-name p{
     font-size: 1.2em;
@@ -79,7 +76,7 @@
     margin-left: 5em;
   }
   .contact-text-title p{
-    font-size: 3em;
+    font-size: 4em;
   }
   .contact-text-description p{
     font-size: 1.2em;
@@ -128,12 +125,21 @@
     align-items: baseline;
   }
   .team-introduction-block{
-    height: 80%;
-    width: 20%;
+    height: 85%;
+    width: 30%;
   }
   .team-introduction-block-last{
     height: 80%;
     width: 20%;
+  }
+  .team-image-block{
+    height: 60%;
+  }
+  .team-text-name{
+    height: 15%;
+  }
+  .team-text-content{
+    height: 25%;
   }
   .team-introduction-second-section{
     align-items: baseline;
@@ -145,12 +151,13 @@
   .contact-text-description p{
     font-size: 1.2em;
   }
+  .contact-empty-block{
+    height: 100%;
+    width: 15%;
+  }
 }
 /* iPad Pro(세로) ----------- */
 @media screen and (device-width: 1024px) and (max-device-width: 1366px) and (orientation : portrait) {
-  #navbar a{
-    font-size: 1em;
-  }
   // Overall Section
   .overall-text-company p{
     font-size: 2.2em;
@@ -162,7 +169,7 @@
     font-size: 2em;
   }
   .overall-section-wrapper{
-    background-image: image-url("overall_image_tb.png");
+    background-image: image-url("background_tb.png");
     background-size: cover;
   }
   // Service Section
@@ -173,7 +180,7 @@
     font-size: 3em;
   }
   .service-description-section p{
-    font-size: 1.8em;
+    font-size: 1.5em;
   }
   // Team Section
   .team-introduction-wrapper{
@@ -204,7 +211,7 @@
     width: 100%;
   }
   .team-text-block{
-    height: 15%;
+    height: 30%;
     width: 100%;
   }
   .team-text-name{
@@ -220,8 +227,11 @@
   .team-text-block p{
     font-size: 3em;
   }
-  .team-text-name p{
-    font-size: 1.6em;
+  p.name{
+    font-size: 1.5em;
+  }
+  p.position{
+    font-size: 1em;
   }
   .team-text-content p{
     font-size: 0em;
@@ -268,7 +278,7 @@
     font-size: 2em;
   }
   .overall-section-wrapper{
-    background-image: image-url("overall_image_tb.png");
+    background-image: image-url("background_tb.png");
     background-size: cover;
   }
   // Service Section
@@ -279,23 +289,33 @@
     font-size: 3em;
   }
   .service-description-section p{
-    font-size: 1.8em;
+    font-size: 1.3em;
   }
   // Team Section
-  .team-text-block p{
-    font-size: 3.5em;
+  .team-introduction-block{
+    height: 50%;
+    width: 50%;
   }
-  .team-text-name {
-    border: 0px solid;
-    border-color: trensparent;
+  .team-introduction-block-last{
+    height: 50%;
+    width: 50%;
   }
-  .team-text-name p{
-    font-size: 1.8em;
+  .team-image-block{
+    height: 60%;
+  }
+  .team-text-block{
+    height: 40%;
+  }
+  p.name{
+    font-size: 1.2em;
+  }
+  p.position{
+    font-size: 1.1em;
   }
   .team-text-content p{
-    font-size: 0em;
-    color: trensparent;
+    font-size: 1em;
   }
+
   // Contact Section
   .contact-content-wrapper{
     flex-direction: column;
@@ -308,8 +328,14 @@
   .contact-text-title p{
     font-size: 3em;
   }
-  .contact-text-description p{
-    font-size: 1.8em;
+  p.description{
+    font-size: 1.5em;
+  }
+  p.email{
+    font-size: 1.2em;
+  }
+  p.address{
+    font-size: 1.2em;
   }
   .contact-empty-block{
     height: 5%;

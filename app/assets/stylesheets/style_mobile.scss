@@ -15,6 +15,12 @@
     background-attachment: scroll;
   }
   // Service Section
+  .service-empty-block{
+    height: 0%;
+  }
+  .service-description-section{
+    width: 80%;
+  }
   .service-category-section p{
     font-size: 0.3em;
   }
@@ -22,14 +28,29 @@
     font-size: 1.5em;
   }
   .service-description-section p{
-    font-size: 0.5em;
+    font-size: 0.6em;
+    line-height: normal;
+    font-weight: normal;
+    margin-top: -2em;
+    color: #000000;
   }
   // Slider Button
   .fp-controlArrow.fp-prev {
     border-width: 16.5px 17px 16.5px 0px;
+    margin-top: 4em;
   }
   .fp-controlArrow.fp-next {
     border-width: 16.5px 0 16.5px 17px;
+    margin-top: 4em;
+  }
+  .first-image{
+    // 전용 이미지 삽입 필요
+  }
+  .second-image{
+    // 전용 이미지 삽입 필요
+  }
+  .third-image{
+    // 전용 이미지 삽입 필요
   }
   // Team Section
   .team-introduction-wrapper{
@@ -54,20 +75,20 @@
   }
   .team-introduction-block{
     height: 60%;
-    width: 30%;
+    width: 32%;
     margin-right: 2em;
   }
   .team-introduction-block-last{
     height: 60%;
-    width: 30%;
+    width: 32%;
     margin-right: 2em;
   }
   .team-image-block{
-    height: 85%;
+    height: 75%;
     width: 100%;
   }
   .team-text-block{
-    height: 15%;
+    height: 25%;
     width: 100%;
   }
   .team-text-name{
@@ -84,11 +105,11 @@
     font-size: 1.5em;
   }
   p.name{
-    font-size: 0.8em;
+    font-size: 0.7em;
   }
   p.position{
-    font-size: 0.5em;
-    margin-left: 1em;
+    font-size: 0.7em;
+    font-weight: bold;
   }
   .team-text-content p{
     font-size: 0em;
@@ -122,8 +143,11 @@
   .contact-text-title p{
     font-size: 1.5em;
   }
-  .contact-text-description p{
-    font-size: 1em;
+  .contact-text-description{
+    width: 85%;
+  }
+  p.description{
+    font-size: 0.8em;
   }
 }
 
@@ -148,6 +172,15 @@
   }
   .service-description-section p{
     font-size: 0.8em;
+  }
+  .first-image{
+    // 전용 이미지 삽입 필요
+  }
+  .second-image{
+    // 전용 이미지 삽입 필요
+  }
+  .third-image{
+    // 전용 이미지 삽입 필요
   }
   // Slider Button
   .fp-controlArrow.fp-prev {
@@ -241,10 +274,27 @@
     font-size: 0.6em;
   }
   .service-name-section p{
-    font-size: 1.5em;
+    font-size: 2.3em;
   }
   .service-description-section p{
     font-size: 0.8em;
+    line-height: 0.2em;
+  }
+  .first-image{
+    // 전용 이미지 삽입 필요
+  }
+  .second-image{
+    // 전용 이미지 삽입 필요
+  }
+  .third-image{
+    // 전용 이미지 삽입 필요
+  }
+  // Slider Button
+  .fp-controlArrow.fp-prev {
+    border-width: 16.5px 17px 16.5px 0px;
+  }
+  .fp-controlArrow.fp-next {
+    border-width: 16.5px 0 16.5px 17px;
   }
   // Team Section
   .team-introduction-wrapper{
@@ -269,21 +319,21 @@
     align-items: baseline;
   }
   .team-introduction-block{
-    height: 90%;
+    height: 130%;
     width: 30%;
     margin-right: 2em;
   }
   .team-introduction-block-last{
-    height: 90%;
+    height: 130%;
     width: 30%;
     margin-right: 2em;
   }
   .team-image-block{
-    height: 85%;
+    height: 70%;
     width: 100%;
   }
   .team-text-block{
-    height: 15%;
+    height: 30%;
     width: 100%;
   }
   .team-text-name{
@@ -299,8 +349,14 @@
   .team-text-block p{
     font-size: 2em;
   }
-  .team-text-name p{
-    font-size: 0.8em;
+  p.name{
+    font-size: 0.7em;
+    font-weight: bold;
+  }
+  p.position{
+    margin-top: -1.3em;
+    font-size: 0.6em;
+    font-weight: bold;
   }
   .team-text-content p{
     font-size: 0em;
@@ -310,8 +366,17 @@
   .contact-text-title p{
     font-size: 2em;
   }
-  .contact-text-description p{
+  p.description{
     font-size: 1em;
+    margin-right: 1.2em;
+  }
+  p.email{
+    font-size: 0.9em;
+    margin-right: 1.2em;
+  }
+  p.address{
+    font-size: 0.9em;
+    margin-right: 1.2em;
   }
 }
 

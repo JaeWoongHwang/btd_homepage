@@ -58,7 +58,7 @@
   align-items: center;
 }
 .team-introduction-block{
-  height: 45%;
+  height: 50%;
   width: 45%;
   max-height: 500px;
   max-width: 200px;
@@ -85,7 +85,7 @@
   transition: .5s ease;
 }
 .team-introduction-block-last{
-  height: 45%;
+  height: 50%;
   width: 45%;
   max-height: 500px;
   max-width: 200px;
@@ -110,34 +110,34 @@
   transition: .5s ease;
 }
 .team-image-block{
-  height: 75%;
+  height: 70%;
   width: 100%;
   background-color: lightgrey;
 }
 .team-text-block{
-  height: 25%;
+  height: 40%;
   width: 100%;
 }
 .team-text-name{
-  height: 35%;
+  height: 42%;
   width: 100%;
   border-bottom: 1px solid;
   border-color: #e1e1e1;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: baseline;
 }
 p.name {
   font-family: NanumSquare;
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
   text-align: left;
-  margin-top: 5px;
-  margin-left: 10px;
+  margin-top: 2px;
+  margin-left: 9px;
   color: #000000;
 }
 p.position {
@@ -150,10 +150,11 @@ p.position {
   letter-spacing: -1px;
   text-align: center;
   color: grey;
-  margin-left: 2em;
+  margin-left: 9px;
+  margin-top: -1em;
 }
 .team-text-content{
-  height: 65%;
+  height: 58%;
   width: 100%;
 }
 .team-text-content p{
@@ -165,6 +166,6 @@ p.position {
   line-height: normal;
   text-align: left;
   color: #6a6a6a;
-  margin-left: 10px;
-  margin-top: 10px;
+  margin-left: 9px;
+  margin-top: 0.5em;
 }

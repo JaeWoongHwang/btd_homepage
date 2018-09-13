@@ -55,18 +55,17 @@
 }
 .service-description-section{
   height: 45%;
-  width: 100%;
+  width: 80%;
+  margin-top: 2em;
   text-align: center;
 }
 .service-description-section p{
-  font-family: OpenSans, sans-serif;
-  font-size: 1.5em;
+  font-family: NanumSquare;
+  font-size: 1.4em;
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
-  line-height: normal;
   letter-spacing: -0.5px;
-  text-transform: uppercase;
   color: #4d4b4b;
 }
 .service-text-effect .letter{
@@ -74,8 +73,8 @@
   line-height: 1em;
 }
 .service-image-wrapper{
-  height: 75%;
-  width: 90%;
+  height: 60%;
+  width: 80%;
 }
 .first-image{
   background-image: image-url("first_slide.jpeg");
@@ -90,10 +89,10 @@
   background-size: cover;
 }
 .fp-controlArrow.fp-prev{
-  margin-top: 45px;
+  margin-top: 5%;
   margin-left: 10%;
 }
 .fp-controlArrow.fp-next{
-  margin-top: 45px;
+  margin-top: 5%;
   margin-right: 10%;
 }

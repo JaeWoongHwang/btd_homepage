@@ -14,7 +14,7 @@
 }
 .overall-content-wrapper{
   height: 100%;
-  width: 55%;
+  width: 75%;
   background-color: trensparent;
   display: flex;
   flex-direction: column;
@@ -24,7 +24,7 @@
 }
 .overall-empty-wrapper{
   height: 100%;
-  width: 45%;
+  width: 25%;
   background-color: trensparent;
   position: relative;
 }
@@ -58,14 +58,18 @@
 }
 .overall-text-title p{
   font-family: OpenSans, sans-serif;
-  font-size: 3em;
+  font-size: 4em;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: -2px;
   text-align: left;
-  color: #030303;
+  text-transform: uppercase;
+  color: #000000;
+  zoom: 1;
+  filter: alpha(opacity=50);
+  opacity: 0.4;
 }
 .overall-text-content{
   width: 100%;
