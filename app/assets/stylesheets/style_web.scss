@@ -32,7 +32,6 @@
     font-size: 3em;
   }
   .contact-text-description p{
-    font-size: 1.2em;
     margin-top: 1.5em;
   }
   .contact-map-block{
@@ -40,7 +39,7 @@
   }
   p.description{
     font-weight: lighter;
-    font-size: 1.2em;
+    font-size: 1.15em;
     color: #000000;
   }
   P.email{
@@ -85,11 +84,21 @@
     font-size: 3em;
   }
   .contact-text-description p{
-    font-size: 1.2em;
     margin-top: 1.5em;
   }
   .contact-map-block{
     margin-left: 5em;
+  }
+  p.description{
+    font-weight: lighter;
+    font-size: 1.15em;
+    color: #000000;
+  }
+  P.email{
+    font-size: 1em;
+  }
+  p.address{
+    font-size: 1em;
   }
 }
 /* 대형 스크린 ----------- */
@@ -127,10 +136,20 @@
     font-size: 3em;
   }
   .contact-text-description p{
-    font-size: 1.2em;
     margin-top: 1.5em;
   }
   .contact-map-block{
     margin-left: 5em;
+  }
+  p.description{
+    font-weight: lighter;
+    font-size: 1.15em;
+    color: #000000;
+  }
+  P.email{
+    font-size: 1em;
+  }
+  p.address{
+    font-size: 1em;
   }
 }

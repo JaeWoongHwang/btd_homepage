@@ -104,10 +104,10 @@
     font-size: 2em;
   }
   p.name{
-    font-size: 0.7em;
+    font-size: 0.6em;
   }
   p.position{
-    font-size: 0.7em;
+    font-size: 0.5em;
     font-weight: bold;
   }
   .team-text-content p{
@@ -149,7 +149,6 @@
     font-size: 0.8em;
   }
 }
-
 /* Smart Phone (가로 ) ----------- */
 @media only screen and (min-device-width: 321px) and (max-device-width: 811px) and (orientation : landscape) {
   // Overall Section
@@ -361,17 +360,29 @@
     font-size: 2em;
   }
   p.name{
-    font-size: 0.7em;
+    font-size: 0.6em;
     font-weight: bold;
   }
   p.position{
     margin-top: -1.3em;
-    font-size: 0.6em;
+    font-size: 0.5em;
     font-weight: bold;
   }
   .team-text-content p{
     font-size: 0em;
     color: trensparent;
+  }
+  #bonkyoung{
+    background-size: cover;
+  }
+  #hyunseob{
+    background-size: cover;
+  }
+  #dongkeun{
+    background-size: cover;
+  }
+  #jaewoong{
+    background-size: cover;
   }
   // Contact Section
   .contact-text-title p{
