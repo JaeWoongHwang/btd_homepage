@@ -2,20 +2,20 @@
     <div class="overall-content-wrapper">
       <div class="overall-content-section">
           <div class="overall-text-company">
-            <p class="overall-text-effect">Beyond the Dream</p>
+            <span><p class="overall-text-effect">Beyond the Dream</p></span>
           </div>
           <div class="overall-text-title">
-            <p class="overall-text-effect">Main Copy Section</p>
+            <span><p class="overall-text-effect">Main Copy Section</p></span>
           </div>
           <div class="overall-text-content">
-            <p class="overall-text-effect">Content Section</p>
+            <span><p class="overall-text-effect">Content Section</p></span>
           </div>
       </div>
     </div>
     <div class="overall-empty-wrapper">
     </div>
 </div>
-
+<!--Text Effect  -->
 <script type="text/javascript">
   $('.overall-text-effect').each(function(){
   $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));

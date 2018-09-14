@@ -1,7 +1,7 @@
 <div class="team-section-wrapper">
   <div class="team-text-wrapper">
     <div class="team-text-block">
-      <p class="team-text-effect">TEAM STORY</p>
+      <span><p class="team-text-effect">TEAM STORY</p></span>
     </div>
   </div>
   <div class="team-introduction-wrapper">
@@ -60,6 +60,7 @@
   </div>
 </div>
 
+<!--Text Effect  -->
 <script>
   $('.team-text-effect').each(function(){
     $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));

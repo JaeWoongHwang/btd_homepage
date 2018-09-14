@@ -112,7 +112,6 @@
 .team-image-block{
   height: 70%;
   width: 100%;
-
 }
 .team-text-block{
   height: 40%;
@@ -148,7 +147,7 @@
 p.name {
   font-family: 'Oswald', sans-serif;
   font-size: 1em;
-  font-weight: bold;
+  font-weight: 700;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
@@ -168,7 +167,7 @@ p.position {
   letter-spacing: -1px;
   text-align: center;
   color: grey;
-  margin-left: 9px;
+  margin-left: 8px;
   margin-top: -1em;
 }
 .team-text-content p{
@@ -180,7 +179,7 @@ p.position {
   line-height: normal;
   text-align: left;
   color: #6a6a6a;
-  margin-left: 9px;
+  margin-left: 8px;
   margin-top: 0.5em;
 }
 /* oswald-200 - latin */
