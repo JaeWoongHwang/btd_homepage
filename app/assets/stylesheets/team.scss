@@ -112,7 +112,7 @@
 .team-image-block{
   height: 70%;
   width: 100%;
-  background-color: lightgrey;
+
 }
 .team-text-block{
   height: 40%;
@@ -121,29 +121,47 @@
 .team-text-name{
   height: 42%;
   width: 100%;
-  border-bottom: 1px solid;
-  border-color: #e1e1e1;
   display: flex;
   flex-direction: column;
   align-items: baseline;
 }
+.team-text-content{
+  height: 58%;
+  width: 100%;
+}
+#bonkyoung{
+  background-image: image-url(profile_bk);
+  background-size: contain;
+}
+#hyunseob{
+  background-image: image-url(profile_hs);
+  background-size: contain;
+}
+#dongkeun{
+  background-image: image-url(profile_dk);
+  background-size: contain;
+}
+#jaewoong{
+  background-image: image-url(profile_jw);
+  background-size: contain;
+}
 p.name {
   font-family: NanumSquare;
   font-size: 1em;
-  font-weight: normal;
+  font-weight: bold;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
   text-align: left;
-  margin-top: 2px;
+  margin-top: 7px;
   margin-left: 9px;
   color: #000000;
 }
 p.position {
   font-family: NanumSquare;
   font-size: 0.9em;
-  font-weight: lighter;
+  font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
@@ -152,10 +170,6 @@ p.position {
   color: grey;
   margin-left: 9px;
   margin-top: -1em;
-}
-.team-text-content{
-  height: 58%;
-  width: 100%;
 }
 .team-text-content p{
   font-family: NanumSquare;

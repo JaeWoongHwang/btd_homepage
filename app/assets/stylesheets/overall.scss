@@ -30,11 +30,13 @@
 }
 .overall-content-section{
   width: 100%;
-  height: 40%;
+  height: 70%;
 }
 .overall-text-company{
   width: 100%;
-  height: 20%;
+  height: 30%;
+  display: flex;
+  align-items: flex-end;
 }
 .overall-text-effect .letter{
   display: inline-block;
@@ -63,7 +65,7 @@
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
-  letter-spacing: -2px;
+  letter-spacing: -4px;
   text-align: left;
   text-transform: uppercase;
   color: #000000;
