@@ -43,7 +43,7 @@
   line-height: 1em;
 }
 .overall-text-company p{
-  font-family: OpenSans, sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 1.5em;
   font-weight: normal;
   font-style: normal;
@@ -59,9 +59,9 @@
   height: 40%;
 }
 .overall-text-title p{
-  font-family: OpenSans, sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 4em;
-  font-weight: bold;
+  font-weight: 700;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
@@ -78,7 +78,7 @@
   height: 40%;
 }
 .overall-text-content p{
-  font-family: OpenSans, sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 1.5em;
   font-weight: normal;
   font-style: normal;
@@ -87,4 +87,82 @@
   letter-spacing: -0.5px;
   text-align: left;
   color: #4d4b4b;
+}
+/* oswald-200 - latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 200;
+  src: font-url('oswald-v16-latin-200.eot'); /* IE9 Compat Modes */
+  src: local('Oswald ExtraLight'), local('Oswald-ExtraLight'),
+       font-url('oswald-v16-latin-200.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       font-url('oswald-v16-latin-200.woff2') format('woff2'), /* Super Modern Browsers */
+       font-url('oswald-v16-latin-200.woff') format('woff'), /* Modern Browsers */
+       font-url('oswald-v16-latin-200.ttf') format('truetype'), /* Safari, Android, iOS */
+       font-url('oswald-v16-latin-200.svg#Oswald') format('svg'); /* Legacy iOS */
+}
+/* oswald-regular - latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: font-url('oswald-v16-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Oswald Regular'), local('Oswald-Regular'),
+       font-url('oswald-v16-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       font-url('oswald-v16-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       font-url('oswald-v16-latin-regular.woff') format('woff'), /* Modern Browsers */
+       font-url('oswald-v16-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       font-url('oswald-v16-latin-regular.svg#Oswald') format('svg'); /* Legacy iOS */
+}
+/* oswald-300 - latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 300;
+  src: font-url('oswald-v16-latin-300.eot'); /* IE9 Compat Modes */
+  src: local('Oswald Light'), local('Oswald-Light'),
+       font-url('oswald-v16-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       font-url('oswald-v16-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+       font-url('oswald-v16-latin-300.woff') format('woff'), /* Modern Browsers */
+       font-url('oswald-v16-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+       font-url('oswald-v16-latin-300.svg#Oswald') format('svg'); /* Legacy iOS */
+}
+/* oswald-500 - latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 500;
+  src: font-url('oswald-v16-latin-500.eot'); /* IE9 Compat Modes */
+  src: local('Oswald Medium'), local('Oswald-Medium'),
+       font-url('oswald-v16-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       font-url('oswald-v16-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+       font-url('oswald-v16-latin-500.woff') format('woff'), /* Modern Browsers */
+       font-url('oswald-v16-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+       font-url('oswald-v16-latin-500.svg#Oswald') format('svg'); /* Legacy iOS */
+}
+/* oswald-700 - latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  src: font-url('oswald-v16-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Oswald Bold'), local('Oswald-Bold'),
+       font-url('oswald-v16-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       font-url('oswald-v16-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       font-url('oswald-v16-latin-700.woff') format('woff'), /* Modern Browsers */
+       font-url('oswald-v16-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       font-url('oswald-v16-latin-700.svg#Oswald') format('svg'); /* Legacy iOS */
+}
+/* oswald-600 - latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 600;
+  src: font-url('oswald-v16-latin-600.eot'); /* IE9 Compat Modes */
+  src: local('Oswald SemiBold'), local('Oswald-SemiBold'),
+       font-url('oswald-v16-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       font-url('oswald-v16-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+       font-url('oswald-v16-latin-600.woff') format('woff'), /* Modern Browsers */
+       font-url('oswald-v16-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+       font-url('oswald-v16-latin-600.svg#Oswald') format('svg'); /* Legacy iOS */
 }
