@@ -79,6 +79,8 @@
     font-size: 0.8em;
     line-height: normal;
     font-weight: normal;
+    margin-top: 1em;
+    margin-bottom: 0;
   }
   // Slider Button
   .fp-controlArrow.fp-prev {
@@ -181,6 +183,22 @@
   .team-text-content p{
     font-size: 0em;
     color: trensparent;
+  }
+  #bonkyoung{
+    background-image: image-url("profile_ipad_bk.png");
+    background-size: contain;
+  }
+  #hyunseob{
+    background-image: image-url("profile_ipad_hs.png");
+    background-size: contain;
+  }
+  #dongkeun{
+    background-image: image-url("profile_ipad_dk.png");
+    background-size: contain;
+  }
+  #jaewoong{
+    background-image: image-url("profile_ipad_jw.png");
+    background-size: contain;
   }
   // Contact Section
   .contact-content-wrapper{
@@ -318,6 +336,22 @@
     font-size: 0em;
     color: trensparent;
   }
+  #bonkyoung{
+    background-image: image-url("profile_ipad_bk.png");
+    background-size: contain;
+  }
+  #hyunseob{
+    background-image: image-url("profile_ipad_hs.png");
+    background-size: contain;
+  }
+  #dongkeun{
+    background-image: image-url("profile_ipad_dk.png");
+    background-size: contain;
+  }
+  #jaewoong{
+    background-image: image-url("profile_ipad_jw.png");
+    background-size: contain;
+  }
   // Contact Section
   .contact-text-title p{
     font-size: 1.5em;
@@ -339,31 +373,37 @@
     font-size: 1em;
   }
   // Service Section
+  .service-category-section{
+    height: 30%;
+  }
+  .service-name-section{
+    height: 30%;
+  }
   .service-description-section{
-    width: 60%;
-    margin-bottom: 1em;
+    height: 40%;
   }
   .service-category-section p{
     font-size: 2em;
     margin-top: 0;
   }
   .service-name-section p{
-    font-size: 1em;
-  }
-  .service-description-section{
-    height: 50%;
+    font-size: 0.9em;
+    margin-bottom: 0;
   }
   .service-description-section p{
     font-size: 0.7em;
     font-weight: bold;
     line-height: 1.2em;
+    margin-top: -0.5em;
   }
   // Slider Button
   .fp-controlArrow.fp-prev {
     border-width: 16.5px 17px 16.5px 0px;
+    margin-top: 1.5em;
   }
   .fp-controlArrow.fp-next {
     border-width: 16.5px 0 16.5px 17px;
+    margin-top: 1.5em;
   }
   // Team Section
   .team-text-wrapper{
@@ -389,10 +429,14 @@
   .team-introduction-first-section{
     height: 100%;
     width: 50%;
+    display: flex;
+    align-items: center;
   }
   .team-introduction-second-section{
     height: 100%;
     width: 50%;
+    display: flex;
+    align-items: center;
   }
   .team-introduction-block{
     height: 80%;
@@ -435,6 +479,22 @@
     font-size: 0em;
     color: trensparent;
   }
+  #bonkyoung{
+    background-image: image-url("profile_ipad_bk.png");
+    background-size: contain;
+  }
+  #hyunseob{
+    background-image: image-url("profile_ipad_hs.png");
+    background-size: contain;
+  }
+  #dongkeun{
+    background-image: image-url("profile_ipad_dk.png");
+    background-size: contain;
+  }
+  #jaewoong{
+    background-image: image-url("profile_ipad_jw.png");
+    background-size: contain;
+  }
   // Contact Section
   .contact-text-title p{
     font-size: 2em;
@@ -460,9 +520,250 @@
 }
 
 /* iPhoneX (세로 ) ----------- */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) {
+@media only screen and (device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) {
+  // Overall Section
+  .overall-content-wrapper{
+    height: 100%;
+    width: 100%;
+  }
+  .overall-empty-wrapper{
+    height: 100%;
+    width: 0%;
+  }
+  .overall-content-section{
+    height: 100%;
+    width: 100%;
+    margin-left: -6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .overall-text-company{
+    height: 10%;
+    width: 100%;
+  }
+  .overall-text-title{
+    height: 30%;
+    width: 100%;
+  }
+  .overall-text-content{
+    height: 20%;
+    width: 100%;
+  }
+  .overall-text-company p{
+    font-size: 1em;
+  }
+  .overall-text-title p{
+    font-size: 2em;
+  }
+  .overall-text-content p{
+    font-size: 1em;
+  }
+  .overall-section-wrapper{
+    background-image: image-url("background_sp.png");
+    background-attachment: scroll;
+  }
+  // Service Section
+  .service-text-wrapper{
+    height: 30%;
+  }
+  .service-image-wrapper{
+    height: 70%;
+  }
+  .service-empty-block{
+    height: 0%;
+  }
+  .service-category-section{
+    height: 30%;
+  }
+  .service-name-section{
+    height: 20%;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .service-description-section{
+    height: 50%;
+    width: 80%;
+    margin-top: -1em;
+  }
+  .service-category-section p{
+    font-size: 2em;
+    margin-top: 1em;
+  }
+  .service-name-section p{
+    font-size: 1.2em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .service-description-section p{
+    font-size: 0.8em;
+    line-height: normal;
+    font-weight: normal;
+    margin-top: 1em;
+    margin-bottom: 0;
+  }
+  // Slider Button
+  .fp-controlArrow.fp-prev {
+    border-width: 16.5px 17px 16.5px 0px;
+    margin-top: 6em;
+  }
+  .fp-controlArrow.fp-next {
+    border-width: 16.5px 0 16.5px 17px;
+    margin-top: 6em;
+  }
+  // Team Section
+  .team-text-wrapper{
+    height: 20%;
+  }
+  .team-text-block{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .team-introduction-wrapper{
+    height: 80%;
+  }
+  .team-text-title{
+    height: 40%;
+  }
+  .team-text-content{
+    height: 60%;
+  }
+  .team-text-effect{
+    font-size: 2em;
+  }
+  .team-text-content p{
+    font-size: 0.8em;
+  }
+  .team-introduction-wrapper{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .team-introduction-first-section{
+    height: 50%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .team-introduction-second-section{
+    height: 50%;
+    width: 100%;
+    justify-content: center;
+    align-items: baseline;
+  }
+  .team-introduction-block{
+    height: 60%;
+    width: 32%;
+    margin-right: 2em;
+  }
+  .team-introduction-block-last{
+    height: 60%;
+    width: 32%;
+    margin-right: 2em;
+  }
+  .team-image-block{
+    height: 75%;
+    width: 100%;
+  }
+  .team-text-block{
+    height: 25%;
+    width: 100%;
+  }
+  .team-text-name{
+    height: 100%;
+    width: 100%;
+    border: 0px solid;
+    border-color: trensparent;
+  }
+  .team-text-content{
+    height: 0%;
+    width: 0%;
+  }
+  .team-text-effect{
+    font-size: 2em;
+  }
+  .team-text-description p{
+    font-size: 0.8em;
+  }
+  p.name{
+    font-size: 0.6em;
+  }
+  p.position{
+    font-size: 0.5em;
+    font-weight: bold;
+  }
+  .team-text-content p{
+    font-size: 0em;
+    color: trensparent;
+  }
+  #bonkyoung{
+    background-image: image-url("profile_iphonex_bk.png");
+    background-size: cover;
+  }
+  #hyunseob{
+    background-image: image-url("profile_iphonex_hs.png");
+    background-size: cover;
+  }
+  #dongkeun{
+    background-image: image-url("profile_iphonex_dk.png");
+    background-size: cover;
+  }
+  #jaewoong{
+    background-image: image-url("profile_iphonex_jw.png");
+    background-size: cover;
+  }
+  // Contact Section
+  .contact-content-wrapper{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-text-block{
+    height: 35%;
+    width: 100%;
+    margin-left: 2em;
+  }
+  .contact-text-title{
+    display: flex;
+    align-items: center;
+  }
+  .contact-empty-block{
+    height: 15%;
+    width: 100%;
+  }
+  .contact-map-block{
+    height: 50%;
+    width: 100%;
+  }
+  .contact-text-title p{
+    font-size: 2em;
+  }
+  .contact-text-description{
+    width: 100%;
+  }
+  p.description{
+    font-size: 0.7em;
+    margin-top: 0.5em;
+  }
+  p.email{
+    font-size: 0.7em;
+    margin-top: 1em;
+  }
+  p.address{
+    font-size: 0.7em;
+  }
 }
-
 /* iPhone 6 Plus 가로 및 세로 */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
 }
