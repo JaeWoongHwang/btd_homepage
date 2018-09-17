@@ -14,20 +14,36 @@
     background-attachment: scroll;
   }
   // Service Section
+  .service-empty-block{
+    height: 0%;
+  }
+  .service-category-section{
+    height: 20%;
+  }
+  .service-name-section{
+    height: 40%;
+  }
+  .service-description-section{
+    height: 40%;
+    margin-top: 0;
+  }
   .service-category-section p{
     font-size: 1.2em;
+    margin-top: 0;
+    margin-bottom: 0;
   }
   .service-name-section p{
     font-size: 3em;
+    margin-top: 0;
+  }
+  .service-text-effect p{
+    margin-top: 0;
   }
   .service-description-section p{
     font-size: 1em;
   }
   // Team Section
   // Contact Section
-  .contact-text-block{
-    margin-left: 5em;
-  }
   .contact-text-title p{
     font-size: 3em;
   }
@@ -35,7 +51,7 @@
     margin-top: 1.5em;
   }
   .contact-map-block{
-    margin-left: 5em;
+    margin-left: 2em;
   }
   p.description{
     font-weight: lighter;

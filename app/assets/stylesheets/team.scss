@@ -14,10 +14,31 @@
   justify-content: center;
   align-items: center;
 }
-.team-text-block{
+.team-introduction-wrapper{
   height: 80%;
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.team-head-block{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+}
+.team-text-title{
+  height: 60%;
+  width: 100%;
+  margin-top: 2em;
+}
+.team-text-description{
+  height: 40%;
+  width: 100%;
 }
 .team-text-effect{
   font-family: 'Open Sans', sans-serif;
@@ -28,18 +49,19 @@
   line-height: normal;
   letter-spacing: -1px;
   color: #000;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .team-text-effect .letter{
   display: inline-block;
   line-height: 1em;
 }
-.team-introduction-wrapper{
-  height: 80%;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+.team-text-description p{
+  font-family: 'Nanum Gothic';
+  font-size: 1.15em;
+  line-height: normal;
+  letter-spacing: -1px;
+  color: #4d4b4b;
 }
 .team-introduction-first-section{
   height: 100%;
@@ -62,7 +84,6 @@
   width: 45%;
   max-height: 500px;
   max-width: 200px;
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -130,19 +151,19 @@
 }
 #bonkyoung{
   background-image: image-url(profile_bk);
-  background-size: contain;
+  background-size: cover;
 }
 #hyunseob{
   background-image: image-url(profile_hs);
-  background-size: contain;
+  background-size: cover;
 }
 #dongkeun{
   background-image: image-url(profile_dk);
-  background-size: contain;
+  background-size: cover;
 }
 #jaewoong{
   background-image: image-url(profile_jw);
-  background-size: contain;
+  background-size: cover;
 }
 p.name {
   font-family: 'Open Sans', sans-serif;
@@ -164,9 +185,9 @@ p.position {
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
-  letter-spacing: -1px;
+  letter-spacing: -0.5px;
   text-align: center;
-  color: grey;
+  color: #757171;
   margin-left: 8px;
   margin-top: -1em;
 }
@@ -179,7 +200,7 @@ p.position {
   line-height: normal;
   text-align: left;
   color: #6a6a6a;
-  margin-left: 8px;
+  margin-left: 4px;
   margin-top: 0.5em;
 }
 /* open-sans-300 - latin */
