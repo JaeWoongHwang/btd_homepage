@@ -150,19 +150,19 @@
   width: 100%;
 }
 #bonkyoung{
-  background-image: image-url(profile_bk);
+  background-image: image-url("profile_bk.png");
   background-size: cover;
 }
 #hyunseob{
-  background-image: image-url(profile_hs);
+  background-image: image-url("profile_hs.png");
   background-size: cover;
 }
 #dongkeun{
-  background-image: image-url(profile_dk);
+  background-image: image-url("profile_dk.png");
   background-size: cover;
 }
 #jaewoong{
-  background-image: image-url(profile_jw);
+  background-image: image-url("profile_jw.png");
   background-size: cover;
 }
 p.name {
