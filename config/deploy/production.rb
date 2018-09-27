@@ -1,7 +1,7 @@
 set :stage, :production
 set :branch, 'master'
 # address server
-server '35.221.127.98 ', user: 'btd_jaewoong', roles: %w{web app db}
+  server '35.200.46.245', user: 'btd_jaewoong', roles: %w{web app db}
 
 # server-based syntax
 # ======================
