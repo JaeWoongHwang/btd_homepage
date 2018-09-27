@@ -32,17 +32,17 @@
     font-size: 1em;
   }
   // Service Section
-  .service-description-section{
+  .service-description-block{
     width: 60%;
   }
-  .service-category-section p{
+  .service-category-block p{
     font-size: 3em;
   }
-  .service-name-section p{
+  .service-name-block p{
     font-size: 1.4em;
     margin-top: 0.5em;
   }
-  .service-description-section p{
+  .service-description-block p{
     font-size: 0.9em;
     margin-top: 0;
   }
@@ -66,34 +66,34 @@
   .team-text-description p{
     font-size: 1em;
   }
-  .team-introduction-wrapper{
+  .team-introduction-section{
     flex-direction: column;
   }
-  .team-introduction-first-section{
+  .team-introduction-first-block{
     height: 50%;
     width: 100%;
     justify-content: center;
   }
-  .team-introduction-second-section{
+  .team-introduction-second-block{
     height: 50%;
     width: 100%;
     justify-content: center;
     align-items: flex-start;
   }
-  .team-introduction-block{
+  .team-introduction-box{
     height: 70%;
     width: 55%;
   }
-  .team-introduction-block-last{
+  .team-introduction-box-last{
     height: 70%;
     width: 50%;
     margin-right: 2em;
   }
-  .team-image-block{
+  .team-image-box{
     height: 55%;
     width: 100%;
   }
-  .team-text-block{
+  .team-text-box{
     height: 45%;
     width: 100%;
   }
@@ -135,7 +135,7 @@
     background-size: cover;
   }
   // Contact Section
-  .contact-content-wrapper{
+  .contact-content-section{
     flex-direction: column;
   }
   .contact-text-block{
@@ -189,26 +189,26 @@
   .service-empty-block{
     height: 0%;
   }
-  .service-category-section{
+  .service-category-block{
     height: 40%;
   }
-  .service-name-section{
+  .service-name-block{
     height: 20%;
   }
-  .service-description-section{
+  .service-description-block{
     height: 40%;
     margin-top: 0;
   }
-  .service-category-section p{
+  .service-category-block p{
     font-size: 3em;
     margin-top: 0;
   }
-  .service-name-section p{
+  .service-name-block p{
     font-size: 1.5em;
     margin-top: 0;
     margin-bottom: 0;
   }
-  .service-description-section p{
+  .service-description-block p{
     font-size: 1em;
   }
   // Team Section
@@ -251,13 +251,13 @@
     background-attachment: scroll;
   }
   // Service Section
-  .service-category-section p{
+  .service-category-block p{
     font-size: 3em;
   }
-  .service-name-section p{
+  .service-name-block p{
     font-size: 1.2em;
   }
-  .service-description-section p{
+  .service-description-block p{
     font-size: 1em;
   }
   // Team Section
@@ -303,13 +303,13 @@
     background-attachment: scroll;
   }
   // Service Section
-  .service-category-section p{
+  .service-category-block p{
     font-size: 3em;
   }
-  .service-name-section p{
+  .service-name-block p{
     font-size: 1.2em;
   }
-  .service-description-section p{
+  .service-description-block p{
     font-size: 1em;
   }
   // Team Section

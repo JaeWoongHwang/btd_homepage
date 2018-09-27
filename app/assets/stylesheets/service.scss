@@ -7,7 +7,7 @@
   justify-content: center;
   align-items: center;
 }
-.service-text-wrapper{
+.service-text-section{
   height: 25%;
   width: 100%;
   display: flex;
@@ -20,13 +20,13 @@
   width: 100%;
   background-color: trensparent;
 }
-.service-category-section{
+.service-category-block{
   height: 30%;
   width: 100%;
   text-align: center;
   text-transform: uppercase;
 }
-.service-category-section p{
+.service-category-block p{
   font-family: 'Open Sans', sans-serif;
   font-size: 3em;
   font-style: normal;
@@ -38,12 +38,12 @@
   margin-top: 0.3em;
   margin-bottom: 0;
 }
-.service-name-section{
+.service-name-block{
   height: 15%;
   width: 100%;
   text-align: center;
 }
-.service-name-section p{
+.service-name-block p{
   font-family: 'Open Sans', sans-serif;
   font-size: 1.5em;
   font-weight: bold;
@@ -53,20 +53,20 @@
   letter-spacing: -1.5px;
   color: #4d4b4b;
 }
-.service-name-section a:hover{
+.service-name-block a:hover{
   color: darkgrey;
 }
-.service-name-section a{
+.service-name-block a{
   color: #000000;
   text-decoration: none !important;
 }
-.service-description-section{
+.service-description-block{
   height: 45%;
   width: 60%;
   margin-top: 1em;
   text-align: center;
 }
-.service-description-section p{
+.service-description-block p{
   font-family: 'Nanum Gothic';
   font-size: 1.2em;
   font-weight: 300;
@@ -79,7 +79,7 @@
   display: inline-block;
   line-height: 1em;
 }
-.service-image-wrapper{
+.service-image-section{
   height: 60%;
   width: 80%;
 }

@@ -13,46 +13,46 @@
     width: 10%;
   }
   // Service Section
-  .service-description-section{
+  .service-description-block{
     width: 80%;
   }
-  .service-category-section p{
+  .service-category-block p{
     font-size: 3em;
   }
-  .service-name-section p{
+  .service-name-block p{
     font-size: 1.5em;
   }
-  .service-description-section p{
+  .service-description-block p{
     font-size: 1.2em;
   }
   // Team Section
-  .team-introduction-wrapper{
+  .team-introduction-section{
     flex-direction: column;
   }
-  .team-introduction-first-section{
+  .team-introduction-first-block{
     height: 50%;
     width: 100%;
     justify-content: center;
   }
-  .team-introduction-second-section{
+  .team-introduction-second-block{
     height: 50%;
     width: 100%;
     justify-content: center;
   }
-  .team-introduction-block{
+  .team-introduction-box{
     height: 70%;
     width: 40%;
   }
-  .team-introduction-block-last{
+  .team-introduction-box-last{
     height: 70%;
     width: 40%;
     margin-right: 2em;
   }
-  .team-image-block{
+  .team-image-box{
     height: 70%;
     width: 100%;
   }
-  .team-text-block{
+  .team-text-box{
     height: 30%;
     width: 100%;
   }
@@ -93,7 +93,7 @@
     background-size: cover;
   }
   // Contact Section
-  .contact-content-wrapper{
+  .contact-content-section{
     flex-direction: column;
   }
   .contact-text-block{
@@ -143,17 +143,17 @@
     font-size: 1em;
   }
   // Service Section
-  .service-description-section{
+  .service-description-block{
     width: 90%;
   }
-  .service-category-section p{
+  .service-category-block p{
     font-size: 2.5em;
   }
-  .service-description-section p{
+  .service-description-block p{
     font-size: 1.2em;
   }
   // Team Section
-  .team-text-block p{
+  .team-text-box p{
     font-size: 2.5em;
   }
   .team-text-name p{
@@ -163,18 +163,18 @@
     font-size: 0%;
     color: trensparent;
   }
-  .team-introduction-first-section{
+  .team-introduction-first-block{
     align-items: baseline;
   }
-  .team-introduction-block{
+  .team-introduction-box{
     height: 85%;
     width: 30%;
   }
-  .team-introduction-block-last{
+  .team-introduction-box-last{
     height: 80%;
     width: 20%;
   }
-  .team-image-block{
+  .team-image-box{
     height: 60%;
   }
   .team-text-name{
@@ -183,7 +183,7 @@
   .team-text-content{
     height: 25%;
   }
-  .team-introduction-second-section{
+  .team-introduction-second-block{
     align-items: baseline;
   }
   #bonkyoung{
@@ -250,17 +250,17 @@
   }
 
   // Service Section
-  .service-description-section{
+  .service-description-block{
     width: 80%;
   }
-  .service-category-section p{
+  .service-category-block p{
     font-size: 4em;
   }
-  .service-name-section p{
+  .service-name-block p{
     font-size: 1.8em;
   }
-  .service-description-section p{
-    font-size: 1.8em;
+  .service-description-block p{
+    font-size: 1.6em;
     margin-top: 0;
   }
   // Slider Button
@@ -283,34 +283,34 @@
   .team-text-description p{
     font-size: 1.5em;
   }
-  .team-introduction-wrapper{
+  .team-introduction-section{
     flex-direction: column;
   }
-  .team-introduction-first-section{
+  .team-introduction-first-block{
     height: 50%;
     width: 100%;
     justify-content: center;
   }
-  .team-introduction-second-section{
+  .team-introduction-second-block{
     height: 50%;
     width: 100%;
     justify-content: center;
     align-items: flex-start;
   }
-  .team-introduction-block{
+  .team-introduction-box{
     height: 65%;
     width: 55%;
   }
-  .team-introduction-block-last{
+  .team-introduction-box-last{
     height: 65%;
     width: 50%;
     margin-right: 2em;
   }
-  .team-image-block{
+  .team-image-box{
     height: 65%;
     width: 100%;
   }
-  .team-text-block{
+  .team-text-box{
     height: 35%;
     width: 100%;
   }
@@ -350,7 +350,7 @@
     background-size: contain;
   }
   // Contact Section
-  .contact-content-wrapper{
+  .contact-content-section{
     flex-direction: column;
   }
   .contact-text-block{
@@ -414,29 +414,29 @@
   .service-empty-block{
     width: 0%;
   }
-  .service-text-wrapper{
+  .service-text-section{
     height: 30%;
   }
-  .service-image-wrapper{
+  .service-image-section{
     height: 70%;
   }
-  .service-description-section{
+  .service-description-block{
     width: 65%;
   }
-  .service-category-section p{
+  .service-category-block p{
     font-size: 4em;
   }
-  .service-name-section p{
+  .service-name-block p{
     font-size: 1.5em;
   }
-  .service-description-section p{
+  .service-description-block p{
     font-size: 1.5em;
   }
   // Team Section
-  .team-text-wrapper{
+  .team-text-section{
     height: 25%;
   }
-  .team-introduction-wrapper{
+  .team-introduction-section{
     height: 75%;
   }
   .team-head-block{
@@ -452,26 +452,26 @@
   .team-text-description p{
     font-size: 1.5em;
   }
-  .team-introduction-first-section{
+  .team-introduction-first-block{
     align-items: flex-start;
   }
-  .team-introduction-second-section{
+  .team-introduction-second-block{
     align-items: flex-start;
   }
-  .team-introduction-block{
+  .team-introduction-box{
     height: 45%;
     width: 45%;
     margin-top: 4em;
   }
-  .team-introduction-block-last{
+  .team-introduction-box-last{
     height: 45%;
     width: 45%;
     margin-top: 4em;
   }
-  .team-image-block{
+  .team-image-box{
     height: 65%;
   }
-  .team-text-block{
+  .team-text-box{
     height: 35%;
   }
   p.name{
@@ -500,7 +500,7 @@
     background-size: contain;
   }
   // Contact Section
-  .contact-content-wrapper{
+  .contact-content-section{
     flex-direction: column;
   }
   .contact-text-block{

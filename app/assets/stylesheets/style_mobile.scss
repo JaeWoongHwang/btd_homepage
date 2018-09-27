@@ -44,42 +44,42 @@
     background-attachment: scroll;
   }
   // Service Section
-  .service-text-wrapper{
+  .service-text-section{
     height: 30%;
   }
-  .service-image-wrapper{
+  .service-image-section{
     height: 70%;
   }
   .service-empty-block{
     height: 0%;
   }
-  .service-category-section{
+  .service-category-block{
     height: 30%;
   }
-  .service-name-section{
+  .service-name-block{
     height: 20%;
     margin-top: 0;
     margin-bottom: 0;
   }
-  .service-description-section{
+  .service-description-block{
     height: 50%;
     width: 80%;
     margin-top: -1em;
   }
-  .service-category-section p{
+  .service-category-block p{
     font-size: 2em;
-    margin-top: 0;
+    margin-top: 0.5em;
   }
-  .service-name-section p{
+  .service-name-block p{
     font-size: 1.2em;
     margin-top: 0;
     margin-bottom: 0;
   }
-  .service-description-section p{
-    font-size: 0.8em;
+  .service-description-block p{
+    font-size: 0.7em;
     line-height: normal;
     font-weight: normal;
-    margin-top: 1em;
+    margin-top: 1.5em;
     margin-bottom: 0;
   }
   // Slider Button
@@ -92,10 +92,10 @@
     margin-top: 4em;
   }
   // Team Section
-  .team-text-wrapper{
+  .team-text-section{
     height: 20%;
   }
-  .team-text-block{
+  .team-text-box{
     height: 100%;
     width: 100%;
     display: flex;
@@ -104,7 +104,7 @@
     align-items: center;
     text-align: center;
   }
-  .team-introduction-wrapper{
+  .team-introduction-section{
     height: 80%;
   }
   .team-text-title{
@@ -119,7 +119,7 @@
   .team-text-content p{
     font-size: 0.8em;
   }
-  .team-introduction-wrapper{
+  .team-introduction-section{
     height: 80%;
     width: 100%;
     display: flex;
@@ -127,33 +127,33 @@
     justify-content: center;
     align-items: center;
   }
-  .team-introduction-first-section{
+  .team-introduction-first-block{
     height: 50%;
     width: 100%;
     justify-content: center;
     align-items: center;
   }
-  .team-introduction-second-section{
+  .team-introduction-second-block{
     height: 50%;
     width: 100%;
     justify-content: center;
     align-items: baseline;
   }
-  .team-introduction-block{
+  .team-introduction-box{
     height: 60%;
     width: 32%;
     margin-right: 2em;
   }
-  .team-introduction-block-last{
+  .team-introduction-box-last{
     height: 60%;
     width: 32%;
     margin-right: 2em;
   }
-  .team-image-block{
+  .team-image-box{
     height: 75%;
     width: 100%;
   }
-  .team-text-block{
+  .team-text-box{
     height: 25%;
     width: 100%;
   }
@@ -201,7 +201,7 @@
     background-size: contain;
   }
   // Contact Section
-  .contact-content-wrapper{
+  .contact-content-section{
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -232,8 +232,10 @@
     width: 100%;
   }
   p.description{
+    width: 80%;
     font-size: 0.7em;
     margin-top: 0.5em;
+
   }
   p.email{
     font-size: 0.7em;
@@ -241,6 +243,7 @@
   }
   p.address{
     font-size: 0.7em;
+    margin-top: 0.5em;
   }
 }
 /* Smart Phone (가로 ) ----------- */
@@ -256,16 +259,16 @@
     font-size: 1em;
   }
   // Service Section
-  .service-description-section{
+  .service-description-block{
     width: 80%;
   }
-  .service-category-section p{
+  .service-category-block p{
     font-size: 1.5em;
   }
-  .service-name-section p{
+  .service-name-block p{
     font-size: 0.5em;
   }
-  .service-description-section p{
+  .service-description-block p{
     font-size: 0.8em;
     line-height: 0;
   }
@@ -277,7 +280,7 @@
     border-width: 16.5px 0 16.5px 17px;
   }
   // Team Section
-  .team-introduction-wrapper{
+  .team-introduction-section{
     height: 80%;
     width: 100%;
     display: flex;
@@ -286,33 +289,33 @@
     align-items: baseline;
     margin-top: 40px;
   }
-  .team-introduction-first-section{
+  .team-introduction-first-block{
     height: 50%;
     width: 100%;
     justify-content: flex-end;
     align-items: baseline;
   }
-  .team-introduction-second-section{
+  .team-introduction-second-block{
     height: 50%;
     width: 100%;
     justify-content: flex-start;
     align-items: baseline;
   }
-  .team-introduction-block{
+  .team-introduction-box{
     height: 80%;
     width: 30%;
     margin-right: 2em;
   }
-  .team-introduction-block-last{
+  .team-introduction-box-last{
     height: 80%;
     width: 30%;
     margin-right: 2em;
   }
-  .team-image-block{
+  .team-image-box{
     height: 85%;
     width: 100%;
   }
-  .team-text-block{
+  .team-text-box{
     height: 15%;
     width: 100%;
   }
@@ -326,7 +329,7 @@
     height: 0%;
     width: 0%;
   }
-  .team-text-block p{
+  .team-text-box p{
     font-size: 1.5em;
   }
   .team-text-name p{
@@ -353,6 +356,26 @@
     background-size: contain;
   }
   // Contact Section
+  .contact-content-section{
+    flex-direction: row;
+  }
+  .contact-text-block{
+    height: 100%;
+    width: 45%;
+    margin-left: 5em;
+  }
+  .contact-text-description{
+    width: 100%;
+  }
+  .contact-empty-block{
+    height: 5%;
+    width: 100%;
+  }
+  .contact-map-block{
+    height: 100%;
+    width: 50%;
+    margin: 5em;
+  }
   .contact-text-title p{
     font-size: 1.5em;
   }
@@ -373,24 +396,24 @@
     font-size: 1em;
   }
   // Service Section
-  .service-category-section{
+  .service-category-block{
     height: 30%;
   }
-  .service-name-section{
+  .service-name-block{
     height: 30%;
   }
-  .service-description-section{
+  .service-description-block{
     height: 40%;
   }
-  .service-category-section p{
+  .service-category-block p{
     font-size: 2em;
     margin-top: 0;
   }
-  .service-name-section p{
+  .service-name-block p{
     font-size: 0.9em;
     margin-bottom: 0;
   }
-  .service-description-section p{
+  .service-description-block p{
     font-size: 0.7em;
     font-weight: bold;
     line-height: 1.2em;
@@ -406,7 +429,7 @@
     margin-top: 1.5em;
   }
   // Team Section
-  .team-text-wrapper{
+  .team-text-section{
     height: 30%;
   }
   .team-text-title{
@@ -418,7 +441,7 @@
   .team-text-description p{
     font-size: 0.7em;
   }
-  .team-introduction-wrapper{
+  .team-introduction-section{
     height: 70%;
     width: 100%;
     display: flex;
@@ -426,33 +449,33 @@
     justify-content: center;
     align-items: center;
   }
-  .team-introduction-first-section{
+  .team-introduction-first-block{
     height: 100%;
     width: 50%;
     display: flex;
     align-items: center;
   }
-  .team-introduction-second-section{
+  .team-introduction-second-block{
     height: 100%;
     width: 50%;
     display: flex;
     align-items: center;
   }
-  .team-introduction-block{
+  .team-introduction-box{
     height: 80%;
     width: 40%;
     margin-right: 1em;
   }
-  .team-introduction-block-last{
+  .team-introduction-box-last{
     height: 80%;
     width: 40%;
     margin-right: 1em;
   }
-  .team-image-block{
+  .team-image-box{
     height: 70%;
     width: 100%;
   }
-  .team-text-block{
+  .team-text-box{
     height: 30%;
     width: 100%;
   }
@@ -496,13 +519,32 @@
     background-size: contain;
   }
   // Contact Section
+  .contact-content-section{
+    flex-direction: row;
+  }
+  .contact-text-block{
+    height: 100%;
+    width: 45%;
+    margin-left: 5em;
+  }
+  .contact-text-description{
+    width: 100%;
+  }
+  .contact-empty-block{
+    height: 5%;
+    width: 100%;
+  }
+  .contact-map-block{
+    height: 100%;
+    width: 50%;
+    margin: 5em;
+  }
   .contact-text-title p{
     font-size: 2em;
+    margin-top: 1em;
   }
   p.description{
     font-size: 0.9em;
-    margin-top: 2em;
-    margin-right: 1.4em;
   }
   p.email{
     font-size: 0.8em;
@@ -565,38 +607,38 @@
     background-attachment: scroll;
   }
   // Service Section
-  .service-text-wrapper{
+  .service-text-section{
     height: 30%;
   }
-  .service-image-wrapper{
+  .service-image-section{
     height: 70%;
   }
   .service-empty-block{
     height: 0%;
   }
-  .service-category-section{
+  .service-category-block{
     height: 30%;
   }
-  .service-name-section{
+  .service-name-block{
     height: 20%;
     margin-top: 0;
     margin-bottom: 0;
   }
-  .service-description-section{
+  .service-description-block{
     height: 50%;
     width: 80%;
     margin-top: -1em;
   }
-  .service-category-section p{
+  .service-category-block p{
     font-size: 2em;
-    margin-top: 1em;
+    margin-top: 0.5em;
   }
-  .service-name-section p{
+  .service-name-block p{
     font-size: 1.2em;
     margin-top: 0;
     margin-bottom: 0;
   }
-  .service-description-section p{
+  .service-description-block p{
     font-size: 0.8em;
     line-height: normal;
     font-weight: normal;
@@ -613,10 +655,10 @@
     margin-top: 6em;
   }
   // Team Section
-  .team-text-wrapper{
+  .team-text-section{
     height: 20%;
   }
-  .team-text-block{
+  .team-text-box{
     height: 100%;
     width: 100%;
     display: flex;
@@ -625,7 +667,7 @@
     align-items: center;
     text-align: center;
   }
-  .team-introduction-wrapper{
+  .team-introduction-section{
     height: 80%;
   }
   .team-text-title{
@@ -640,7 +682,7 @@
   .team-text-content p{
     font-size: 0.8em;
   }
-  .team-introduction-wrapper{
+  .team-introduction-section{
     height: 80%;
     width: 100%;
     display: flex;
@@ -648,33 +690,33 @@
     justify-content: center;
     align-items: center;
   }
-  .team-introduction-first-section{
+  .team-introduction-first-block{
     height: 50%;
     width: 100%;
     justify-content: center;
     align-items: center;
   }
-  .team-introduction-second-section{
+  .team-introduction-second-block{
     height: 50%;
     width: 100%;
     justify-content: center;
     align-items: baseline;
   }
-  .team-introduction-block{
+  .team-introduction-box{
     height: 60%;
     width: 32%;
     margin-right: 2em;
   }
-  .team-introduction-block-last{
+  .team-introduction-box-last{
     height: 60%;
     width: 32%;
     margin-right: 2em;
   }
-  .team-image-block{
+  .team-image-box{
     height: 75%;
     width: 100%;
   }
-  .team-text-block{
+  .team-text-box{
     height: 25%;
     width: 100%;
   }
@@ -722,7 +764,7 @@
     background-size: cover;
   }
   // Contact Section
-  .contact-content-wrapper{
+  .contact-content-section{
     height: 100%;
     display: flex;
     flex-direction: column;
