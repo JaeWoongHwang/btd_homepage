@@ -521,6 +521,7 @@
   // Contact Section
   .contact-content-section{
     flex-direction: row;
+    margin-top: -3em;
   }
   .contact-text-block{
     height: 100%;
@@ -558,6 +559,12 @@
   }
   .contact-map-block{
     margin-left: 2em;
+  }
+  #map{
+    height: 200px;
+  }
+  .iw_inner h4{
+    margin-top: 0.4em;
   }
 }
 

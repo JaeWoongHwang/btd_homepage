@@ -16,10 +16,10 @@
       </div>
     </div>
     <div class="contact-map-block">
-      <div id="map" style="width:100%;height:100%;"></div>
+      <div id="map" style="width:100%;height:400px;"></div>
     </div>
   </div>
-</div>
+  </div>
 <!--Text Effect  -->
 <script>
   $('.contact-text-effect').each(function(){
@@ -46,7 +46,8 @@
     });
 </script>
 <!--Naver Map API  -->
-<script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=XklzTKnGdUpepvQTZ08c&submodules=geocoder"></script>
+<script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=cpw9RMOfkmb0qIa7Vz23&callback=initMap"></script>
+<!-- <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=XklzTKnGdUpepvQTZ08c&submodules=geocoder"></script> -->
 <script type="text/javascript">
   var HOME_PATH = window.HOME_PATH || '.';
   var btd = new naver.maps.LatLng(37.473219, 126.884288),
@@ -69,8 +70,8 @@
   var infowindow = new naver.maps.InfoWindow({
       content: contentString,
       maxWidth: 180,
-      backgroundColor: "#eee",
-      borderColor: "#d7be69",
+      backgroundColor: "#f2f2f2",
+      borderColor: "#000000",
       borderWidth: 3,
       anchorSize: new naver.maps.Size(30, 30),
       anchorSkew: true,
