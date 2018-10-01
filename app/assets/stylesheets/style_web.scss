@@ -15,11 +15,11 @@
     width: 100%;
   }
   .overall-text-title{
-    height: 50%;
+    height: 30%;
     width: 100%;
   }
   .overall-text-content{
-    height: 30%;
+    height: 50%;
     width: 100%;
   }
   .overall-text-company p{
@@ -29,11 +29,14 @@
     font-size: 4em;
   }
   .overall-text-content p{
-    font-size: 1.5em;
+    font-size: 1.2em;
+  }
+  #content-second-sentence{
+    margin-top: -0.8em;
   }
   // Service Section
   .service-description-block{
-    width: 60%;
+    width: 57%;
   }
   .service-category-block p{
     font-size: 3em;
@@ -43,7 +46,7 @@
     margin-top: 0.5em;
   }
   .service-description-block p{
-    font-size: 0.9em;
+    font-size: 1.2em;
     margin-top: 0;
   }
   // Slider Button
@@ -64,7 +67,7 @@
     font-size: 3em;
   }
   .team-text-description p{
-    font-size: 1em;
+    font-size: 1.2em;
   }
   .team-introduction-section{
     flex-direction: column;
@@ -172,18 +175,40 @@
 }
 @media only screen and (min-width: 1024px) and (max-width: 1224px){
   // Overall Section
+  .overall-content-wrapper{
+    width: 100%;
+  }
+  .overall-empty-wrapper{
+    width: 10%;
+  }
+  .overall-text-company{
+    height: 20%;
+    width: 100%;
+  }
+  .overall-text-title{
+    height: 30%;
+    width: 100%;
+  }
+  .overall-text-content{
+    height: 50%;
+    width: 100%;
+  }
   .overall-text-company p{
     font-size: 1.5em;
   }
   .overall-text-title p{
-    font-size: 4.5em;
+    font-size: 4.3em;
   }
   .overall-text-content p{
-    font-size: 1.5em;
+    font-size: 1.15em;
+    margin-top: 1em;
   }
   .overall-section-wrapper{
     background-image: image-url("background_pc.png");
     background-attachment: scroll;
+  }
+  #content-second-sentence{
+    margin-top: -1em;
   }
   // Service Section
   .service-empty-block{
@@ -210,7 +235,7 @@
     margin-bottom: 0;
   }
   .service-description-block p{
-    font-size: 1em;
+    font-size: 1.15em;
   }
   // Team Section
   // Contact Section
@@ -229,7 +254,6 @@
   p.description{
     font-weight: lighter;
     font-size: 1.15em;
-    color: #000000;
   }
   P.email{
     font-size: 1em;
@@ -241,6 +265,18 @@
 /* PC 및 노트북 ----------- */
 @media only screen and (min-width: 1224px) {
   // Overall Section
+  .overall-text-company{
+    height: 20%;
+    width: 100%;
+  }
+  .overall-text-title{
+    height: 30%;
+    width: 100%;
+  }
+  .overall-text-content{
+    height: 50%;
+    width: 100%;
+  }
   .overall-text-company p{
     font-size: 1.5em;
   }
@@ -248,23 +284,32 @@
     font-size: 4.5em;
   }
   .overall-text-content p{
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
   .overall-section-wrapper{
     background-image: image-url("background_pc.png");
     background-attachment: scroll;
+  }
+  #content-second-sentence{
+    margin-top: -0.5em;
   }
   // Service Section
   .service-category-block p{
     font-size: 3em;
   }
   .service-name-block p{
-    font-size: 1.2em;
+    font-size: 1.5em;
+  }
+  .service-description-block{
+    width: 80%;
   }
   .service-description-block p{
-    font-size: 1em;
+    font-size: 1.3em;
   }
   // Team Section
+  .team-text-description p{
+    font-size: 1.3em;
+  }
   // Contact Section
   .contact-text-block{
     margin-left: 5em;
@@ -280,8 +325,7 @@
   }
   p.description{
     font-weight: lighter;
-    font-size: 1.15em;
-    color: #000000;
+    font-size: 1.3em;
   }
   P.email{
     font-size: 1em;
@@ -293,6 +337,18 @@
 /* 대형 스크린 ----------- */
 @media only screen and (min-width: 1824px) {
   // Overall Section
+  .overall-text-company{
+    height: 20%;
+    width: 100%;
+  }
+  .overall-text-title{
+    height: 30%;
+    width: 100%;
+  }
+  .overall-text-content{
+    height: 50%;
+    width: 100%;
+  }
   .overall-text-company p{
     font-size: 1.5em;
   }
@@ -301,6 +357,11 @@
   }
   .overall-text-content p{
     font-size: 1.5em;
+    letter-spacing: -1px;
+    margin-top: -2em;
+  }
+  #content-second-sentence{
+    margin-top: -1em;
   }
   .overall-section-wrapper{
     background-image: image-url("background_pc.png");
@@ -314,7 +375,7 @@
     font-size: 1.2em;
   }
   .service-description-block p{
-    font-size: 1em;
+    font-size: 1.3em;
   }
   // Team Section
   // Contact Section

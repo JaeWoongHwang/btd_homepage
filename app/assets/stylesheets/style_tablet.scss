@@ -228,25 +228,28 @@
     width: 10%;
   }
   .overall-text-company{
-    height: 20%;
+    height: 10%;
     width: 100%;
   }
   .overall-text-title{
-    height: 50%;
+    height: 40%;
     width: 100%;
   }
   .overall-text-content{
-    height: 30%;
+    height: 50%;
     width: 100%;
   }
   .overall-text-company p{
-    font-size: 2.2em;
+    font-size: 2em;
   }
   .overall-text-title p{
-    font-size: 5em;
+    font-size: 4.8em;
   }
   .overall-text-content p{
-    font-size: 2em;
+    font-size: 1.6em;
+  }
+  #content-second-sentence{
+    margin-top: 0.5em;
   }
 
   // Service Section
@@ -281,7 +284,7 @@
     font-size: 4em;
   }
   .team-text-description p{
-    font-size: 1.5em;
+    font-size: 1.6em;
   }
   .team-introduction-section{
     flex-direction: column;
@@ -364,7 +367,7 @@
   }
   .contact-text-title p{
     font-size: 4em;
-  }
+  }s
   .contact-empty-block{
     height: 0%;
     width: 0%;
@@ -374,13 +377,13 @@
     width: 100%;
   }
   p.description{
-    font-size: 1.4em;
+    font-size: 1.6em;
   }
   p.email{
-    font-size: 1.2em;
+    font-size: 1.4em;
   }
   p.address{
-    font-size: 1.2em;
+    font-size: 1.4em;
   }
 }
 /* iPad Pro (가로) ----------- */
@@ -401,10 +404,10 @@
     font-size: 2.2em;
   }
   .overall-text-title p{
-    font-size: 5em;
+    font-size: 4.5em;
   }
   .overall-text-content p{
-    font-size: 2em;
+    font-size: 1.6em;
   }
   .overall-section-wrapper{
     background-image: image-url("background_tb.png");

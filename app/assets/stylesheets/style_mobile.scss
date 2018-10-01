@@ -34,14 +34,17 @@
     font-size: 1em;
   }
   .overall-text-title p{
-    font-size: 2.5em;
+    font-size: 2em;
   }
   .overall-text-content p{
-    font-size: 1em;
+    font-size: 0.8em;
   }
   .overall-section-wrapper{
     background-image: image-url("background_sp.png");
     background-attachment: scroll;
+  }
+  #content-second-sentence{
+    margin-top: 0.2em;
   }
   // Service Section
   .service-text-section{
@@ -76,9 +79,10 @@
     margin-bottom: 0;
   }
   .service-description-block p{
-    font-size: 0.7em;
+    font-size: 0.8em;
     line-height: normal;
     font-weight: normal;
+    letter-spacing: -1px;
     margin-top: 1.5em;
     margin-bottom: 0;
   }
@@ -170,6 +174,9 @@
   .team-text-effect{
     font-size: 2em;
   }
+  .team-text-description{
+    width: 85%;
+  }
   .team-text-description p{
     font-size: 0.8em;
   }
@@ -233,9 +240,8 @@
   }
   p.description{
     width: 80%;
-    font-size: 0.7em;
+    font-size: 0.8em;
     margin-top: 0.5em;
-
   }
   p.email{
     font-size: 0.7em;
@@ -383,9 +389,19 @@
     font-size: 1em;
   }
 }
+/* iPhone SE (가로 ) ----------- */
+@media only screen and (device-width: 568px) and (orientation : landscape) {
+  // Overall Section
+  .overall-content-section{
+    margin-left: -6.5em;
+  }
+}
 /* iPhoneX (가로 ) ----------- */
 @media only screen and (min-device-width:375px) and (max-device-width: 812px) and (orientation : landscape) {
   // Overall Section
+  .overall-content-section{
+    margin-left: -5em;
+  }
   .overall-text-company p{
     font-size: 1.2em;
   }
@@ -393,7 +409,10 @@
     font-size: 2em;
   }
   .overall-text-content p{
-    font-size: 1em;
+    font-size: 0.8em;
+  }
+  #content-second-sentence{
+    margin-top: -0.5em;
   }
   // Service Section
   .service-category-block{
@@ -404,6 +423,7 @@
   }
   .service-description-block{
     height: 40%;
+    width: 66%;
   }
   .service-category-block p{
     font-size: 2em;
@@ -411,13 +431,16 @@
   }
   .service-name-block p{
     font-size: 0.9em;
-    margin-bottom: 0;
+    margin-top: 1em ;
   }
   .service-description-block p{
-    font-size: 0.7em;
+    font-size: 0.8em;
     font-weight: bold;
     line-height: 1.2em;
     margin-top: -0.5em;
+  }
+  .service-image-section{
+    margin-top: 1em;
   }
   // Slider Button
   .fp-controlArrow.fp-prev {
@@ -438,8 +461,11 @@
   .team-text-effect{
     font-size: 2em;
   }
+  .team-text-description{
+    width: 66%;
+  }
   .team-text-description p{
-    font-size: 0.7em;
+    font-size: 0.8em;
   }
   .team-introduction-section{
     height: 70%;
@@ -453,12 +479,14 @@
     height: 100%;
     width: 50%;
     display: flex;
+    justify-content: flex-end;
     align-items: center;
   }
   .team-introduction-second-block{
     height: 100%;
     width: 50%;
     display: flex;
+    justify-content: flex-start;
     align-items: center;
   }
   .team-introduction-box{
@@ -545,15 +573,15 @@
     margin-top: 1em;
   }
   p.description{
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
   p.email{
-    font-size: 0.8em;
+    font-size: 0.68em;
     margin-top: 2em;
     margin-right: 1.4em;
   }
   p.address{
-    font-size: 0.8em;
+    font-size: 0.68em;
     margin-top: 0.5em;
     margin-right: 1.4em;
   }
@@ -604,10 +632,11 @@
     font-size: 1em;
   }
   .overall-text-title p{
-    font-size: 2.5em;
+    font-size: 2.2em;
   }
   .overall-text-content p{
-    font-size: 1em;
+    font-size: 0.8em;
+    margin-top: -3em;
   }
   .overall-section-wrapper{
     background-image: image-url("background_sp.png");
@@ -615,10 +644,10 @@
   }
   // Service Section
   .service-text-section{
-    height: 30%;
+    height: 25%;
   }
   .service-image-section{
-    height: 70%;
+    height: 75%;
   }
   .service-empty-block{
     height: 0%;
@@ -638,7 +667,7 @@
   }
   .service-category-block p{
     font-size: 2em;
-    margin-top: 0.5em;
+    margin-top: 0.2em;
   }
   .service-name-block p{
     font-size: 1.2em;
@@ -649,7 +678,7 @@
     font-size: 0.8em;
     line-height: normal;
     font-weight: normal;
-    margin-top: 1em;
+    margin-top: 1.2em;
     margin-bottom: 0;
   }
   // Slider Button
@@ -664,6 +693,7 @@
   // Team Section
   .team-text-section{
     height: 20%;
+    width: 75%;
   }
   .team-text-box{
     height: 100%;
@@ -802,7 +832,7 @@
     width: 100%;
   }
   p.description{
-    font-size: 0.7em;
+    font-size: 0.8em;
     margin-top: 0.5em;
   }
   p.email{

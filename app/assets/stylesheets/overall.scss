@@ -21,7 +21,6 @@
   justify-content: center;
   align-items: center;
   margin-left: 100px;
-  text-transform: uppercase;
 }
 .overall-empty-wrapper{
   height: 100%;
@@ -66,7 +65,7 @@
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
-  letter-spacing: -4px;
+  letter-spacing: -2.8px;
   text-align: left;
   color: #fafafa;
   zoom: 1;
@@ -78,16 +77,18 @@
   height: 40%;
 }
 .overall-text-content p{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.5em;
-  font-weight: normal;
+  font-family: 'Nanum Gothic';
+  font-size: 1em;
+  font-weight: 500;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: -1.2px;
   text-align: left;
   color: #ffffff;
-  opacity: 0.8;
+}
+#content-second-sentence{
+  margin-top: 1em;
 }
 /* open-sans-300 - latin */
 @font-face {
@@ -153,4 +154,43 @@
        font-url('open-sans-v15-latin/open-sans-v15-latin-800.woff') format('woff'), /* Modern Browsers */
        font-url('open-sans-v15-latin/open-sans-v15-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
        font-url('open-sans-v15-latin/open-sans-v15-latin-800.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+/* nanum-gothic-v11-korean_latin/nanum-gothic-regular - korean_latin */
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: font-url('nanum-gothic-v11-korean_latin/nanum-gothic-v11-korean_latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('NanumGothic'),
+       font-url('nanum-gothic-v11-korean_latin/nanum-gothic-v11-korean_latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       font-url('nanum-gothic-v11-korean_latin/nanum-gothic-v11-korean_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       font-url('nanum-gothic-v11-korean_latin/nanum-gothic-v11-korean_latin-regular.woff') format('woff'), /* Modern Browsers */
+       font-url('nanum-gothic-v11-korean_latin/nanum-gothic-v11-korean_latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       font-url('nanum-gothic-v11-korean_latin/nanum-gothic-v11-korean_latin-regular.svg#NanumGothic') format('svg'); /* Legacy iOS */
+}
+/* nanum-gothic-v11-korean_latin/nanum-gothic-700 - korean_latin */
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 700;
+  src: font-url('nanum-gothic-v11-korean_latin/nanum-gothic-v11-korean_latin-700.eot'); /* IE9 Compat Modes */
+  src: local('NanumGothic Bold'), local('NanumGothic-Bold'),
+       font-url('nanum-gothic-v11-korean_latin/nanum-gothic-v11-korean_latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       font-url('nanum-gothic-v11-korean_latin/nanum-gothic-v11-korean_latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       font-url('nanum-gothic-v11-korean_latin/nanum-gothic-v11-korean_latin-700.woff') format('woff'), /* Modern Browsers */
+       font-url('nanum-gothic-v11-korean_latin/nanum-gothic-v11-korean_latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       font-url('nanum-gothic-v11-korean_latin/nanum-gothic-v11-korean_latin-700.svg#NanumGothic') format('svg'); /* Legacy iOS */
+}
+/* nanum-gothic-v11-korean_latin/nanum-gothic-800 - korean_latin */
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 800;
+  src: font-url('nanum-gothic-v11-korean_latin/nanum-gothic-v11-korean_latin-800.eot'); /* IE9 Compat Modes */
+  src: local('NanumGothic ExtraBold'), local('NanumGothic-ExtraBold'),
+       font-url('nanum-gothic-v11-korean_latin/nanum-gothic-v11-korean_latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       font-url('nanum-gothic-v11-korean_latin/nanum-gothic-v11-korean_latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+       font-url('nanum-gothic-v11-korean_latin/nanum-gothic-v11-korean_latin-800.woff') format('woff'), /* Modern Browsers */
+       font-url('nanum-gothic-v11-korean_latin/nanum-gothic-v11-korean_latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
+       font-url('nanum-gothic-v11-korean_latin/nanum-gothic-v11-korean_latin-800.svg#NanumGothic') format('svg'); /* Legacy iOS */
 }
