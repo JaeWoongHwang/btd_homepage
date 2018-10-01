@@ -6,13 +6,13 @@
     width: 100%;
   }
   .overall-empty-wrapper{
-    height: 100%;
+    height: 0%;
     width: 0%;
   }
   .overall-content-section{
     height: 100%;
     width: 100%;
-    margin-left: -6em;
+    margin-left: -7em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,7 +34,7 @@
     font-size: 1em;
   }
   .overall-text-title p{
-    font-size: 2em;
+    font-size: 2.5em;
   }
   .overall-text-content p{
     font-size: 1em;
@@ -604,7 +604,7 @@
     font-size: 1em;
   }
   .overall-text-title p{
-    font-size: 2em;
+    font-size: 2.5em;
   }
   .overall-text-content p{
     font-size: 1em;
