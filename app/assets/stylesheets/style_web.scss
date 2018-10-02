@@ -123,18 +123,22 @@
   }
   #bonkyoung{
     background-image: image-url("profile_small_bk.png");
+    background-repeat: no-repeat;
     background-size: cover;
   }
   #hyunseob{
     background-image: image-url("profile_small_hs.png");
+    background-repeat: no-repeat;
     background-size: cover;
   }
   #dongkeun{
     background-image: image-url("profile_small_dk.png");
+    background-repeat: no-repeat;
     background-size: cover;
   }
   #jaewoong{
     background-image: image-url("profile_small_jw.png");
+    background-repeat: no-repeat;
     background-size: cover;
   }
   // Contact Section
@@ -197,7 +201,7 @@
     font-size: 1.5em;
   }
   .overall-text-title p{
-    font-size: 4.3em;
+    font-size: 4em;
   }
   .overall-text-content p{
     font-size: 1.15em;
@@ -211,6 +215,9 @@
     margin-top: -1em;
   }
   // Service Section
+  .service-image-section{
+    height: 65%;
+  }
   .service-empty-block{
     height: 0%;
   }
@@ -236,6 +243,13 @@
   }
   .service-description-block p{
     font-size: 1.15em;
+  }
+  // Slider Button
+  .fp-controlArrow.fp-prev {
+    margin-left: 1em;
+  }
+  .fp-controlArrow.fp-next {
+    margin-right: 1em;
   }
   // Team Section
   // Contact Section
@@ -305,6 +319,10 @@
   }
   .service-description-block p{
     font-size: 1.3em;
+  }
+  .service-image-section{
+    height: 675px;
+    width: 900px;
   }
   // Team Section
   .team-text-description p{
@@ -376,6 +394,10 @@
   }
   .service-description-block p{
     font-size: 1.3em;
+  }
+  .service-image-section{
+    height: 675px;
+    width: 900px;
   }
   // Team Section
   // Contact Section

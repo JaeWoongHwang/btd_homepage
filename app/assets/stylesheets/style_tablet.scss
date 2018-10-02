@@ -13,6 +13,17 @@
     width: 10%;
   }
   // Service Section
+  .service-text-section{
+    height: 40%;
+  }
+  .service-image-section{
+    height: 55%;
+    width: 100%;
+    margin-top: -5em;
+  }
+  .service-empty-block{
+    height: 0;
+  }
   .service-description-block{
     width: 80%;
   }
@@ -21,9 +32,20 @@
   }
   .service-name-block p{
     font-size: 1.5em;
+    margin-top: -1em;
   }
   .service-description-block p{
     font-size: 1.2em;
+    margin-top: -1em;
+  }
+  // Slider Button
+  .fp-controlArrow.fp-prev {
+    margin-top: 8em;
+    margin-left: 0;
+  }
+  .fp-controlArrow.fp-next {
+    margin-top: 8em;
+    margin-right: 0;
   }
   // Team Section
   .team-introduction-section{
@@ -253,7 +275,28 @@
   }
 
   // Service Section
+  .service-text-section{
+    height: 40%;
+  }
+  .service-image-section{
+    width: 80%;
+    height: 60%;
+    margin-top: -4em;
+  }
+  .service-empty-block{
+    height: 5%;
+  }
+  .service-category-block{
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .service-name-block{
+    height: 15%;
+  }
   .service-description-block{
+    height: 35%;
     width: 80%;
   }
   .service-category-block p{
@@ -266,12 +309,44 @@
     font-size: 1.6em;
     margin-top: 0;
   }
+  .image-fanthecall{
+    background-image: url("fanthecall_tb.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .image-maskfanthe{
+    background-image: url("maskfanthe_tb.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .image-fanmong{
+    background-image: url("fanmong_tb.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .image-fanshow{
+    background-image: url("fanshow_tb.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .image-fanality{
+    background-image: url("fanality_tb.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .image-fandrama{
+    background-image: url("fandrama_tb.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
   // Slider Button
   .fp-controlArrow.fp-prev {
-    margin-top: 6em;
+    margin-top: 12em;
+    margin-left: 2em;
   }
   .fp-controlArrow.fp-next {
-    margin-top: 6em;
+    margin-top: 12em;
+    margin-right: 2em;
   }
   // Team Section
   .team-text-title{
@@ -421,7 +496,7 @@
     height: 30%;
   }
   .service-image-section{
-    height: 70%;
+    height: 65%;
   }
   .service-description-block{
     width: 65%;
@@ -434,6 +509,12 @@
   }
   .service-description-block p{
     font-size: 1.5em;
+  }
+  .fp-controlArrow.fp-prev {
+    margin-left: 4.5em;
+  }
+  .fp-controlArrow.fp-next {
+    margin-right: 4.5em;
   }
   // Team Section
   .team-text-section{

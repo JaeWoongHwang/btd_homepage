@@ -80,25 +80,50 @@
   line-height: 1em;
 }
 .service-image-section{
-  height: 60%;
-  width: 80%;
+  height: 675px;
+  width: 900px;
 }
-.first-image{
-  background-color: #7BAABE;
+.image-fanthecall{
+  background-image: url("fanthecall.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
-.second-image{
-  background-color: #4BBFC3;
+.image-maskfanthe{
+  background-image: url("maskfanthe.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
-.third-image{
-  background-color: #00b3d7;
+.image-fanmong{
+  background-image: url("fanmong.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.image-fanshow{
+  background-image: url("fanshow.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.image-fanality{
+  background-image: url("fanality.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.image-fandrama{
+  background-image: url("fandrama.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .fp-controlArrow.fp-prev{
-  margin-top: 5%;
-  margin-left: 10%;
+  margin-top: 3%;
+  margin-left: 15%;
+  border-color: transparent #000000 transparent transparent;
+  opacity: 0.4;
 }
 .fp-controlArrow.fp-next{
-  margin-top: 5%;
-  margin-right: 10%;
+  margin-top: 3%;
+  margin-right: 15%;
+  border-color: transparent transparent transparent #000000;
+  opacity: 0.4;
 }
 /* open-sans-300 - latin */
 @font-face {

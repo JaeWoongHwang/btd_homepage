@@ -52,6 +52,7 @@
   }
   .service-image-section{
     height: 70%;
+    width: 80%;
   }
   .service-empty-block{
     height: 0%;
@@ -86,14 +87,46 @@
     margin-top: 1.5em;
     margin-bottom: 0;
   }
+  .image-fanthecall{
+    background-image: url("fanthecall_sp.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .image-maskfanthe{
+    background-image: url("maskfanthe_sp.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .image-fanmong{
+    background-image: url("fanmong_sp.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .image-fanshow{
+    background-image: url("fanshow_sp.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .image-fanality{
+    background-image: url("fanality_sp.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .image-fandrama{
+    background-image: url("fandrama_sp.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
   // Slider Button
   .fp-controlArrow.fp-prev {
     border-width: 16.5px 17px 16.5px 0px;
     margin-top: 4em;
+    margin-left: 1em;
   }
   .fp-controlArrow.fp-next {
     border-width: 16.5px 0 16.5px 17px;
     margin-top: 4em;
+    margin-right: 1em;
   }
   // Team Section
   .team-text-section{
@@ -268,6 +301,10 @@
   .service-description-block{
     width: 80%;
   }
+  .service-image-section{
+    width: 80%;
+    height: 60%;
+  }
   .service-category-block p{
     font-size: 1.5em;
   }
@@ -440,16 +477,50 @@
     margin-top: -0.5em;
   }
   .service-image-section{
+    width: 60%;
+    height: 60%;
     margin-top: 1em;
+  }
+  .image-fanthecall{
+    background-image: url("fanthecall_tb.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .image-maskfanthe{
+    background-image: url("maskfanthe_tb.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .image-fanmong{
+    background-image: url("fanmong_tb.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .image-fanshow{
+    background-image: url("fanshow_tb.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .image-fanality{
+    background-image: url("fanality_tb.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .image-fandrama{
+    background-image: url("fandrama_tb.png");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   // Slider Button
   .fp-controlArrow.fp-prev {
     border-width: 16.5px 17px 16.5px 0px;
-    margin-top: 1.5em;
+    margin-top: 2.5em;
+    margin-left: 4.5em;
   }
   .fp-controlArrow.fp-next {
     border-width: 16.5px 0 16.5px 17px;
-    margin-top: 1.5em;
+    margin-top: 2.5em;
+    margin-right: 4.5em;
   }
   // Team Section
   .team-text-section{
@@ -681,14 +752,46 @@
     margin-top: 1.2em;
     margin-bottom: 0;
   }
+  .image-fanthecall{
+    background-image: url("fanthecall_sp.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .image-maskfanthe{
+    background-image: url("maskfanthe_sp.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .image-fanmong{
+    background-image: url("fanmong_sp.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .image-fanshow{
+    background-image: url("fanshow_sp.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .image-fanality{
+    background-image: url("fanality_sp.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .image-fandrama{
+    background-image: url("fandrama_sp.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   // Slider Button
   .fp-controlArrow.fp-prev {
     border-width: 16.5px 17px 16.5px 0px;
     margin-top: 6em;
+    margin-left: 0;
   }
   .fp-controlArrow.fp-next {
     border-width: 16.5px 0 16.5px 17px;
     margin-top: 6em;
+    margin-right: 0;
   }
   // Team Section
   .team-text-section{
