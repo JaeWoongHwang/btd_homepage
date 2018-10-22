@@ -30,6 +30,8 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  /*for IE10 */
+  -ms-display: flexbox;
 }
 .service-container{
   width: 100%;

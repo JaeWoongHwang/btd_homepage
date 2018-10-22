@@ -6,11 +6,12 @@
   justify-content: center;
   align-items: center;
   background-image: image-url("background_pc.png");
-  /* Create the parallax scrolling effect */
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
+  /*for IE10 */
+  -ms-display: flexbox;
 }
 
 .overall-content-wrapper {
@@ -22,6 +23,8 @@
   justify-content: center;
   align-items: center;
   margin-left: 100px;
+  /*for IE10 */
+  -ms-display: flexbox;
 }
 
 .overall-empty-wrapper {
@@ -41,6 +44,8 @@
   height: 30%;
   display: flex;
   align-items: flex-end;
+  /*for IE10 */
+  -ms-display: flexbox;
 }
 
 .overall-text-effect .letter {
@@ -60,7 +65,7 @@
   font-weight: normal;
   line-height: normal;
   text-align: left;
-  letter-spacing: -0.2rem;
+  letter-spacing: -0.1rem;
   color: #fafafa;
   zoom: 1;
 }

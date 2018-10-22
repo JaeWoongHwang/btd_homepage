@@ -71,6 +71,8 @@
     justify-content: center;
     align-items: center;
     margin-top: 0;
+    /*for IE10 */
+    -ms-display: flexbox;
   }
 
   .team-text-effect {
@@ -186,41 +188,66 @@
     height: 0;
   }
 
-  .service-category-block {
-    height: 40%;
-  }
-
-  .service-name-block {
-    height: 20%;
-  }
-
   .service-description-block {
     height: 40%;
-    width: 80%;
+    width: 65%;
     margin-top: 0;
-  }
-
-  .service-category-block p {
-    font-size: 3rem;
-    margin-top: 0;
-  }
-
-  .service-name-block p {
-    font-size: 1.5rem;
-    margin-top: 0;
-    margin-bottom: 0;
   }
 
   .service-description-block p {
-    font-size: 1.15rem;
+    font-size: 1.1rem;
+  }
+
+  .image-fanthecall {
+    background-image: image-url("fanthecall_tb.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .image-maskfanthe {
+    background-image: image-url("maskfanthe_tb.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .image-fanmong {
+    background-image: image-url("fanmong_tb.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .image-fanshow {
+    background-image: image-url("fanshow_tb.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .image-fanality {
+    background-image: image-url("fanality_tb.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .image-fandrama {
+    background-image: image-url("fandrama_tb.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
   }
   // Slider Button
   .fp-controlArrow.fp-prev {
-    margin-left: 1rem;
+    margin-left: 0.5rem;
+    margin-top: 5rem;
   }
 
   .fp-controlArrow.fp-next {
-    margin-right: 1rem;
+    margin-right: 0.5rem;
+    margin-top: 5rem;
   }
   // Team Section
   // Contact Section
@@ -314,7 +341,7 @@
   }
 
   .service-description-block {
-    width: 80%;
+    width: 60%;
   }
 
   .service-description-block p {
@@ -406,6 +433,10 @@
 
   .service-name-block p {
     font-size: 1.2rem;
+  }
+
+  .service-description-block {
+    width: 70%;
   }
 
   .service-description-block p {

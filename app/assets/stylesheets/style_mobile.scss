@@ -23,6 +23,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /*for IE10 */
+    -ms-display: flexbox;
   }
 
   .overall-text-company {
@@ -170,6 +172,8 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    /*for IE10 */
+    -ms-display: flexbox;
   }
 
   .team-introduction-section {
@@ -203,6 +207,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /*for IE10 */
+    -ms-display: flexbox;
   }
 
   .team-card-body {
@@ -236,6 +242,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /*for IE10 */
+    -ms-display: flexbox;
   }
 
   .contact-text-block {
@@ -247,6 +255,8 @@
   .contact-text-title {
     display: flex;
     align-items: center;
+    /*for IE10 */
+    -ms-display: flexbox;
   }
 
   .contact-empty-block {
@@ -344,6 +354,8 @@
     justify-content: center;
     align-items: baseline;
     margin-top: 40px;
+    /*for IE10 */
+    -ms-display: flexbox;
   }
   // Contact Section
   .contact-content-section {
@@ -419,7 +431,7 @@
 
   .service-description-block {
     height: 40%;
-    width: 66%;
+    width: 85%;
   }
 
   .service-category-block p {
@@ -434,9 +446,8 @@
 
   .service-description-block p {
     font-size: 0.8rem;
-    font-weight: bold;
     line-height: 1.2rem;
-    margin-top: -0.5rem;
+    margin-top: -0.2rem;
   }
 
   .service-image-section {
@@ -447,38 +458,44 @@
 
   .image-fanthecall {
     background-image: image-url("fanthecall_tb.png");
+    background-size: contain;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: top;
   }
 
   .image-maskfanthe {
     background-image: image-url("maskfanthe_tb.png");
+    background-size: contain;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: top;
   }
 
   .image-fanmong {
     background-image: image-url("fanmong_tb.png");
+    background-size: contain;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: top;
   }
 
   .image-fanshow {
     background-image: image-url("fanshow_tb.png");
+    background-size: contain;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: top;
   }
 
   .image-fanality {
     background-image: image-url("fanality_tb.png");
+    background-size: contain;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: top;
   }
 
   .image-fandrama {
     background-image: image-url("fandrama_tb.png");
+    background-size: contain;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: top;
   }
   // Slider Button
   .fp-controlArrow.fp-prev {
@@ -608,6 +625,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /*for IE10 */
+    -ms-display: flexbox;
   }
 
   .overall-text-company {
@@ -755,6 +774,8 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    /*for IE10 */
+    -ms-display: flexbox;
   }
 
   .team-text-description {
@@ -790,6 +811,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /*for IE10 */
+    -ms-display: flexbox;
   }
 
   .team-card-body {
@@ -822,6 +845,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /*for IE10 */
+    -ms-display: flexbox;
   }
 
   .contact-text-block {
@@ -834,6 +859,8 @@
   .contact-text-title {
     display: flex;
     align-items: center;
+    /*for IE10 */
+    -ms-display: flexbox;
   }
 
   .contact-empty-block {

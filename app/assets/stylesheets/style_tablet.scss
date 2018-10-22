@@ -37,23 +37,60 @@
     font-size: 3rem;
   }
 
-  .service-name-block p {
-    font-size: 1.5rem;
+  .service-description-block p {
+    font-size: 1.1rem;
     margin-top: -1rem;
   }
 
-  .service-description-block p {
-    font-size: 1.2rem;
-    margin-top: -1rem;
+  .image-fanthecall {
+    background-image: image-url("fanthecall_tb.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .image-maskfanthe {
+    background-image: image-url("maskfanthe_tb.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .image-fanmong {
+    background-image: image-url("fanmong_tb.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .image-fanshow {
+    background-image: image-url("fanshow_tb.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .image-fanality {
+    background-image: image-url("fanality_tb.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .image-fandrama {
+    background-image: image-url("fandrama_tb.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
   }
   // Slider Button
   .fp-controlArrow.fp-prev {
-    margin-top: 8rem;
+    margin-top: 7rem;
     margin-left: 0;
   }
 
   .fp-controlArrow.fp-next {
-    margin-top: 8rem;
+    margin-top: 7rem;
     margin-right: 0;
   }
   // Team Section
@@ -61,62 +98,12 @@
     flex-direction: column;
   }
 
-  .team-introduction-first-block {
-    height: 50%;
-    width: 100%;
-    justify-content: center;
+  .team-text-description {
+    width: 80%;
   }
 
-  .team-introduction-second-block {
-    height: 50%;
-    width: 100%;
-    justify-content: center;
-  }
-
-  .team-introduction-box {
-    height: 70%;
-    width: 40%;
-  }
-
-  .team-introduction-box-last {
-    height: 70%;
-    width: 40%;
-    margin-right: 2rem;
-  }
-
-  .team-image-box {
-    height: 70%;
-    width: 100%;
-  }
-
-  .team-text-box {
-    height: 30%;
-    width: 100%;
-  }
-
-  .team-text-name {
-    height: 100%;
-    width: 100%;
-    border: 0 solid;
-    border-color: transparent;
-  }
-
-  .team-text-content {
-    height: 0;
-    width: 0;
-  }
-
-  p.name {
-    font-size: 1.2rem;
-  }
-
-  p.position {
-    font-size: 1rem;
-  }
-
-  .team-text-content p {
-    font-size: 0;
-    color: transparent;
+  .team-text-description p {
+    font-size: 1.1rem;
   }
   // Contact Section
   .contact-content-section {
@@ -142,7 +129,8 @@
   }
 
   p.description {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    margin-top: 0;
   }
 
   p.email {
@@ -191,6 +179,48 @@
   .service-description-block p {
     font-size: 1.2rem;
   }
+
+  .image-fanthecall {
+    background-image: image-url("fanthecall_tb.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .image-maskfanthe {
+    background-image: image-url("maskfanthe_tb.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .image-fanmong {
+    background-image: image-url("fanmong_tb.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .image-fanshow {
+    background-image: image-url("fanshow_tb.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .image-fanality {
+    background-image: image-url("fanality_tb.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .image-fandrama {
+    background-image: image-url("fandrama_tb.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
   // Team Section
   .team-text-box p {
     font-size: 2.5rem;
@@ -229,30 +259,6 @@
 
   .team-text-content {
     height: 25%;
-  }
-
-  .team-introduction-second-block {
-    align-items: baseline;
-  }
-
-  #bonkyoung {
-    background-image: image-url("profile_ipad_bk.png");
-    background-size: cover;
-  }
-
-  #hyunseob {
-    background-image: image-url("profile_ipad_hs.png");
-    background-size: cover;
-  }
-
-  #dongkeun {
-    background-image: image-url("profile_ipad_dk.png");
-    background-size: cover;
-  }
-
-  #jaewoong {
-    background-image: image-url("profile_ipad_jw.png");
-    background-size: cover;
   }
   // Contact Section
   .contact-text-title p {
@@ -334,6 +340,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /*for IE10 */
+    -ms-display: flexbox;
   }
 
   .service-name-block {
@@ -349,10 +357,6 @@
     font-size: 4rem;
   }
 
-  .service-name-block p {
-    font-size: 1.8rem;
-  }
-
   .service-description-block p {
     font-size: 1.6rem;
     margin-top: 0;
@@ -360,47 +364,53 @@
 
   .image-fanthecall {
     background-image: image-url("fanthecall_tb.png");
+    background-size: contain;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-position: top;
   }
 
   .image-maskfanthe {
     background-image: image-url("maskfanthe_tb.png");
+    background-size: contain;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-position: top;
   }
 
   .image-fanmong {
     background-image: image-url("fanmong_tb.png");
+    background-size: contain;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-position: top;
   }
 
   .image-fanshow {
     background-image: image-url("fanshow_tb.png");
+    background-size: contain;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-position: top;
   }
 
   .image-fanality {
     background-image: image-url("fanality_tb.png");
+    background-size: contain;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-position: top;
   }
 
   .image-fandrama {
     background-image: image-url("fandrama_tb.png");
+    background-size: contain;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-position: top;
   }
   // Slider Button
   .fp-controlArrow.fp-prev {
-    margin-top: 12rem;
+    margin-top: 5rem;
     margin-left: 2rem;
   }
 
   .fp-controlArrow.fp-next {
-    margin-top: 12rem;
+    margin-top: 5rem;
     margin-right: 2rem;
   }
   // Team Section
@@ -460,7 +470,7 @@
     font-size: 4rem;
   }
 
-  s .contact-empty-block {
+  .contact-empty-block {
     height: 0;
     width: 0;
   }
@@ -544,12 +554,56 @@
     font-size: 1.5rem;
   }
 
+  .image-fanthecall {
+    background-image: image-url("fanthecall_tb.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .image-maskfanthe {
+    background-image: image-url("maskfanthe_tb.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .image-fanmong {
+    background-image: image-url("fanmong_tb.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .image-fanshow {
+    background-image: image-url("fanshow_tb.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .image-fanality {
+    background-image: image-url("fanality_tb.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .image-fandrama {
+    background-image: image-url("fandrama_tb.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
   .fp-controlArrow.fp-prev {
     margin-left: 4.5rem;
+    margin-top: 5rem;
   }
 
   .fp-controlArrow.fp-next {
     margin-right: 4.5rem;
+    margin-top: 5rem;
   }
   // Team Section
   .team-text-section {
@@ -595,6 +649,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /*for IE10 */
+    -ms-display: flexbox;
   }
 
   .contact-empty-block {
@@ -607,6 +663,8 @@
     display: inherit;
     justify-content: center;
     align-items: center;
+    /*for IE10 */
+    -ms-display: flexbox;
   }
 
   .contact-text-description {

@@ -6,6 +6,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /*for IE10 */
+  -ms-display: flexbox;
 }
 
 .team-text-section {
@@ -14,6 +16,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  /*for IE10 */
+  -ms-display: flexbox;
 }
 
 .team-introduction-section {
@@ -23,6 +27,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /*for IE10 */
+  -ms-display: flexbox;
 }
 
 .team-head-block {
@@ -33,6 +39,8 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  /*for IE10 */
+  -ms-display: flexbox;
 }
 
 .team-text-title {
@@ -80,6 +88,8 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  /*for IE10 */
+  -ms-display: flexbox;
 }
 
 .team-card-block-bottom {
@@ -89,6 +99,8 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  /*for IE10 */
+  -ms-display: flexbox;
 }
 
 .team-card-body {

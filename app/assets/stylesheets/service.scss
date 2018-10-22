@@ -6,6 +6,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /*for IE10 */
+  -ms-display: flexbox;
 }
 
 .service-text-section {
@@ -15,6 +17,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /*for IE10 */
+  -ms-display: flexbox;
 }
 
 .service-empty-block {
@@ -58,19 +62,9 @@
   letter-spacing: -1.5px;
   color: #4d4b4b;
 }
-
-.service-name-block a:hover {
-  color: darkgrey;
-}
-
-.service-name-block a {
-  color: #000000;
-  text-decoration: none !important;
-}
-
 .service-description-block {
   height: 45%;
-  width: 60%;
+  width: 65%;
   margin-top: 1em;
   text-align: center;
 }
