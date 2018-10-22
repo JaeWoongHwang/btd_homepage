@@ -5,84 +5,74 @@
   <div class="contact-content-section">
     <div class="contact-text-block">
       <div class="contact-text-title">
-        <p class="contact-text-effect">CONTACT US</p>
+        <p class="contact-text-effect">Contact Us</p>
       </div>
       <div class="contact-text-description">
         <p class="description">비욘드더드림에 관한 문의, 제휴 등 모든사항에 대해 친절하게 답변해드립니다.</p>
-        <p class="email"><i class="far fa-envelope"></i>&nbsp; btd.information@gmail.com</p>
-        <p class="address"><i class="fas fa-map-marker-alt"></i>&nbsp;서울특별시 금천구 가산디지털1로 83, 204호</p>
+        <p class="email">
+          <i class="far fa-envelope"></i>&nbsp; btd.information@gmail.com</p>
+        <p class="address">
+          <i class="fas fa-map-marker-alt"></i>&nbsp;서울특별시 금천구 가산디지털1로 83, 204호</p>
       </div>
-      <div class="contact-empty-block">
-      </div>
+      <div class="contact-empty-block"></div>
     </div>
     <div class="contact-map-block">
-      <div id="map" style="width:100%;height:400px;"></div>
+      <div id="map" style="width:100%;height:100%;"></div>
     </div>
   </div>
-  </div>
-<!--Text Effect  -->
+</div>
+<!--Text Effect -->
 <script>
-  $('.contact-text-effect').each(function(){
+  $('.contact-text-effect').each(function () {
     $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
   });
 
-  anime.timeline({loop: true})
-    .add({
-      targets: '.contact-text-effect .letter',
-      scale: [4,1],
-      opacity: [0,1],
-      translateZ: 0,
-      easing: "easeOutExpo",
-      duration: 1500,
-      delay: function(el, i) {
-        return 70*i;
-      }
-    }).add({
-      targets: '.contact-text-effect',
-      opacity: 0,
-      duration: 1000,
-      easing: "easeOutExpo",
-      delay: 7000
-    });
+  anime.timeline({loop: true}).add({
+    targets: '.contact-text-effect .letter',
+    scale: [
+      4, 1
+    ],
+    opacity: [
+      0, 1
+    ],
+    translateZ: 0,
+    easing: "easeOutExpo",
+    duration: 1500,
+    delay: function (el, i) {
+      return 70 * i;
+    }
+  }).add({targets: '.contact-text-effect', opacity: 0, duration: 1000, easing: "easeOutExpo", delay: 7000});
 </script>
-<!--Naver Map API  -->
+<!--Naver Map API -->
 <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=XklzTKnGdUpepvQTZ08c&submodules=geocoder"></script>
 <script type="text/javascript">
   var HOME_PATH = window.HOME_PATH || '.';
   var btd = new naver.maps.LatLng(37.473219, 126.884288),
-      map = new naver.maps.Map('map', {
-          center: btd,
-          zoom: 10
-      }),
-      marker = new naver.maps.Marker({
-          map: map,
-          position: btd
-      });
+    map = new naver.maps.Map('map', {
+      center: btd,
+      zoom: 10
+    }),
+    marker = new naver.maps.Marker({map: map, position: btd});
 
-  var contentString = [
-          '<div class="iw_inner">',
-          '   <h4>비욘드더드림</h4>',
-          '   <p>서울특별시 금천구 가산디지털1로 83, 204호</p>',
-          '</div>'
-      ].join('');
+  var contentString = ['<div class="iw_inner">', '   <h4>비욘드더드림</h4>', '   <p>서울특별시 금천구 가산디지털1로 83, 204호</p>', '</div>'].join('');
 
   var infowindow = new naver.maps.InfoWindow({
-      content: contentString,
-      maxWidth: 180,
-      backgroundColor: "#f2f2f2",
-      borderColor: "#000000",
-      borderWidth: 3,
-      anchorSize: new naver.maps.Size(30, 30),
-      anchorSkew: true,
-      anchorColor: "#eee",
-      pixelOffset: new naver.maps.Point(20, -20)
+    content: contentString,
+    maxWidth: 180,
+    backgroundColor: "#f2f2f2",
+    borderColor: "#000000",
+    borderWidth: 3,
+    anchorSize: new naver.maps.Size(30, 30),
+    anchorSkew: true,
+    anchorColor: "#eee",
+    pixelOffset: new naver.maps.Point(20, -20)
   });
 
-  naver.maps.Event.addListener(marker, "click", function(e) {
-      if (infowindow.getMap()) {
-          infowindow.close();
-      } else {
-          infowindow.open(map, marker);
-      }
+  naver.maps.Event.addListener(marker, "click", function (e) {
+    if (infowindow.getMap()) {
+      infowindow.close();
+    } else {
+      infowindow.open(map, marker);
+    }
   });
 </script>

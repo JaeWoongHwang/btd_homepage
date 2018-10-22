@@ -1,427 +1,450 @@
-@media only screen and (max-width: 1023px){
+@media only screen and (max-width: 1023px) {
   // Overall Section
-  .overall-section-wrapper{
+  .overall-section-wrapper {
     background-image: image-url("background_tb.png");
     background-size: cover;
   }
-  .overall-content-wrapper{
+
+  .overall-content-wrapper {
     width: 90%;
   }
-  .overall-empty-wrapper{
+
+  .overall-empty-wrapper {
     width: 10%;
   }
-  .overall-text-company{
+
+  .overall-text-company {
     height: 20%;
     width: 100%;
   }
-  .overall-text-title{
+
+  .overall-text-title {
     height: 30%;
     width: 100%;
   }
-  .overall-text-content{
+
+  .overall-text-content {
     height: 50%;
     width: 100%;
   }
-  .overall-text-company p{
-    font-size: 1.5em;
+
+  .overall-text-title p {
+    font-size: 4rem;
   }
-  .overall-text-title p{
-    font-size: 4em;
+
+  .overall-text-content p {
+    font-size: 1.1rem;
   }
-  .overall-text-content p{
-    font-size: 1.2em;
-  }
-  #content-second-sentence{
-    margin-top: -0.8em;
+
+  #content-second-sentence {
+    margin-top: -0.8rem;
   }
   // Service Section
-  .service-description-block{
+  .service-description-block {
     width: 57%;
   }
-  .service-category-block p{
-    font-size: 3em;
+
+  .service-category-block p {
+    font-size: 3rem;
   }
-  .service-name-block p{
-    font-size: 1.4em;
-    margin-top: 0.5em;
+
+  .service-name-block p {
+    font-size: 1.4rem;
+    margin-top: 0.5rem;
   }
-  .service-description-block p{
-    font-size: 1.2em;
-    margin-top: 0;
+
+  .service-description-block p {
+    font-size: 1rem;
+    margin-top: 1rem;
   }
   // Slider Button
   .fp-controlArrow.fp-prev {
-    margin-top: 4em;
+    margin-top: 4rem;
   }
+
   .fp-controlArrow.fp-next {
-    margin-top: 4em;
+    margin-top: 4rem;
   }
   // Team Section
-  .team-text-title{
+  .team-text-title {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 0;
   }
-  .team-text-effect{
-    font-size: 3em;
+
+  .team-text-effect {
+    font-size: 3rem;
   }
-  .team-text-description p{
-    font-size: 1.2em;
+
+  .team-text-description {
+    width: 90%;
   }
-  .team-introduction-section{
-    flex-direction: column;
-  }
-  .team-introduction-first-block{
-    height: 50%;
-    width: 100%;
-    justify-content: center;
-  }
-  .team-introduction-second-block{
-    height: 50%;
-    width: 100%;
-    justify-content: center;
-    align-items: flex-start;
-  }
-  .team-introduction-box{
-    height: 70%;
-    width: 55%;
-  }
-  .team-introduction-box-last{
-    height: 70%;
-    width: 50%;
-    margin-right: 2em;
-  }
-  .team-image-box{
-    height: 55%;
-    width: 100%;
-  }
-  .team-text-box{
-    height: 45%;
-    width: 100%;
-  }
-  .team-text-name{
-    height: 40%;
-    border: 0px solid;
-    border-color: trensparent;
-  }
-  .team-text-content{
-    height: 60%;
-    margin-left: 0.2em;
-  }
-  p.name{
-    font-size: 1.1em;
+
+  .team-text-description p {
+    font-size: 1rem;
     margin-top: 0;
   }
-  p.position{
-    font-size: 0.9em;
-    margin-top: -1.2em;
-  }
-  p.content{
-    font-size: 0.8em;
-    margin-top: -1em;
-  }
-  #bonkyoung{
-    background-image: image-url("profile_small_bk.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  #hyunseob{
-    background-image: image-url("profile_small_hs.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  #dongkeun{
-    background-image: image-url("profile_small_dk.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  #jaewoong{
-    background-image: image-url("profile_small_jw.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+
+  .team-card-body {
+    width: 200px;
+    height: 80%;
   }
   // Contact Section
-  .contact-content-section{
+  .contact-content-section {
     flex-direction: column;
   }
-  .contact-text-block{
+
+  .contact-text-block {
     height: 40%;
     width: 100%;
-    margin-left: 5em;
+    margin-left: 5rem;
     justify-content: flex-start;
   }
-  .contact-text-description{
+
+  .contact-text-description {
     width: 100%;
   }
-  .contact-text-title p{
-    font-size: 3em;
-    margin-bottom: 2em;
+
+  .contact-text-title p {
+    font-size: 3rem;
+    margin-bottom: 2rem;
   }
-  .contact-empty-block{
-    height: 0%;
-    width: 0%;
+
+  .contact-empty-block {
+    height: 0;
+    width: 0;
   }
-  .contact-map-block{
+
+  .contact-map-block {
     height: 60%;
     width: 100%;
   }
-  p.description{
-    font-size: 1.2em;
-    margin-bottom: 1em;
+
+  p.description {
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+    margin-top: 1.5rem;
   }
-  p.email{
-    font-size: 1em;
+
+  p.email {
+    font-size: 0.9rem;
   }
-  p.address{
-    font-size: 1em;
+
+  p.address {
+    font-size: 0.9rem;
   }
 }
-@media only screen and (min-width: 1024px) and (max-width: 1224px){
+@media only screen and (min-width: 1024px) and (max-width: 1224px) {
   // Overall Section
-  .overall-content-wrapper{
+  .overall-content-wrapper {
     width: 100%;
   }
-  .overall-empty-wrapper{
+
+  .overall-empty-wrapper {
     width: 10%;
   }
-  .overall-text-company{
+
+  .overall-text-company {
     height: 20%;
     width: 100%;
   }
-  .overall-text-title{
+
+  .overall-text-title {
     height: 30%;
     width: 100%;
   }
-  .overall-text-content{
+
+  .overall-text-content {
     height: 50%;
     width: 100%;
   }
-  .overall-text-company p{
-    font-size: 1.5em;
+
+  .overall-text-title p {
+    font-size: 4rem;
   }
-  .overall-text-title p{
-    font-size: 4em;
+
+  .overall-text-content p {
+    font-size: 1.1rem;
+    margin-top: 1rem;
   }
-  .overall-text-content p{
-    font-size: 1.15em;
-    margin-top: 1em;
-  }
-  .overall-section-wrapper{
+
+  .overall-section-wrapper {
     background-image: image-url("background_pc.png");
     background-attachment: scroll;
   }
-  #content-second-sentence{
-    margin-top: -1em;
+
+  #content-second-sentence {
+    margin-top: -1rem;
   }
   // Service Section
-  .service-image-section{
+  .service-image-section {
     height: 65%;
   }
-  .service-empty-block{
-    height: 0%;
+
+  .service-empty-block {
+    height: 0;
   }
-  .service-category-block{
+
+  .service-category-block {
     height: 40%;
   }
-  .service-name-block{
+
+  .service-name-block {
     height: 20%;
   }
-  .service-description-block{
+
+  .service-description-block {
     height: 40%;
     width: 80%;
     margin-top: 0;
   }
-  .service-category-block p{
-    font-size: 3em;
+
+  .service-category-block p {
+    font-size: 3rem;
     margin-top: 0;
   }
-  .service-name-block p{
-    font-size: 1.5em;
+
+  .service-name-block p {
+    font-size: 1.5rem;
     margin-top: 0;
     margin-bottom: 0;
   }
-  .service-description-block p{
-    font-size: 1.15em;
+
+  .service-description-block p {
+    font-size: 1.15rem;
   }
   // Slider Button
   .fp-controlArrow.fp-prev {
-    margin-left: 1em;
+    margin-left: 1rem;
   }
+
   .fp-controlArrow.fp-next {
-    margin-right: 1em;
+    margin-right: 1rem;
   }
   // Team Section
   // Contact Section
-  .contact-content-section{
-    margin-top: 7em;
+  .contact-content-section {
+    margin-top: 7rem;
   }
-  .contact-text-title p{
-    font-size: 3em;
+
+  .contact-text-title p {
+    font-size: 3rem;
   }
-  .contact-text-description p{
-    margin-top: 1.5em;
+
+  .contact-text-description p {
+    margin-top: 1.5rem;
   }
-  .contact-map-block{
-    margin-left: 2em;
+
+  .contact-text-block {
+    width: 40%;
   }
-  p.description{
+
+  .contact-empty-block {
+    width: 10%;
+  }
+
+  .contact-map-block {
+    width: 50%;
+    margin-left: 2rem;
+  }
+
+  p.description {
     font-weight: lighter;
-    font-size: 1.15em;
+    font-size: 1.15rem;
   }
-  P.email{
-    font-size: 1em;
+
+  P.email {
+    font-size: 1rem;
   }
-  p.address{
-    font-size: 1em;
+
+  p.address {
+    font-size: 1rem;
   }
 }
 /* PC 및 노트북 ----------- */
 @media only screen and (min-width: 1224px) {
   // Overall Section
-  .overall-text-company{
+  .overall-content-wrapper {
+    width: 90%;
+  }
+
+  .overall-empty-wrapper {
+    width: 10%;
+  }
+
+  .overall-text-company {
     height: 20%;
     width: 100%;
   }
-  .overall-text-title{
+
+  .overall-text-title {
     height: 30%;
     width: 100%;
   }
-  .overall-text-content{
+
+  .overall-text-content {
     height: 50%;
     width: 100%;
   }
-  .overall-text-company p{
-    font-size: 1.5em;
+
+  .overall-text-title p {
+    font-size: 4.5rem;
   }
-  .overall-text-title p{
-    font-size: 4.5em;
+
+  .overall-text-content p {
+    font-size: 1.1rem;
   }
-  .overall-text-content p{
-    font-size: 1.3em;
-  }
-  .overall-section-wrapper{
+
+  .overall-section-wrapper {
     background-image: image-url("background_pc.png");
     background-attachment: scroll;
   }
-  #content-second-sentence{
-    margin-top: -0.5em;
+
+  #content-second-sentence {
+    margin-top: -0.5rem;
   }
   // Service Section
-  .service-category-block p{
-    font-size: 3em;
+  .service-category-block p {
+    font-size: 3rem;
   }
-  .service-name-block p{
-    font-size: 1.5em;
+
+  .service-name-block p {
+    font-size: 1.5rem;
   }
-  .service-description-block{
+
+  .service-description-block {
     width: 80%;
   }
-  .service-description-block p{
-    font-size: 1.3em;
+
+  .service-description-block p {
+    font-size: 1.1rem;
   }
-  .service-image-section{
+
+  .service-image-section {
     height: 675px;
     width: 900px;
   }
   // Team Section
-  .team-text-description p{
-    font-size: 1.3em;
+  .team-text-description p {
+    font-size: 1.1rem;
   }
   // Contact Section
-  .contact-text-block{
-    margin-left: 5em;
+  .contact-text-block {
+    margin-left: 5rem;
   }
-  .contact-text-title p{
-    font-size: 3em;
+
+  .contact-text-title p {
+    font-size: 3rem;
   }
-  .contact-text-description p{
-    margin-top: 1.5em;
+
+  .contact-text-description p {
+    margin-top: 1.1rem;
   }
-  .contact-map-block{
-    margin-left: 5em;
+
+  .contact-map-block {
+    margin-left: 5rem;
   }
-  p.description{
+
+  p.description {
     font-weight: lighter;
-    font-size: 1.3em;
+    font-size: 1.1rem;
   }
-  P.email{
-    font-size: 1em;
+
+  P.email {
+    font-size: 1rem;
   }
-  p.address{
-    font-size: 1em;
+
+  p.address {
+    font-size: 1rem;
   }
 }
 /* 대형 스크린 ----------- */
 @media only screen and (min-width: 1824px) {
   // Overall Section
-  .overall-text-company{
+  .overall-text-company {
     height: 20%;
     width: 100%;
   }
-  .overall-text-title{
+
+  .overall-text-title {
     height: 30%;
     width: 100%;
   }
-  .overall-text-content{
+
+  .overall-text-content {
     height: 50%;
     width: 100%;
   }
-  .overall-text-company p{
-    font-size: 1.5em;
+
+  .overall-text-company p {
+    font-size: 1.5rem;
   }
-  .overall-text-title p{
-    font-size: 4.5em;
+
+  .overall-text-title p {
+    font-size: 4.5rem;
   }
-  .overall-text-content p{
-    font-size: 1.5em;
+
+  .overall-text-content p {
+    font-size: 1.5rem;
     letter-spacing: -1px;
-    margin-top: -2em;
+    margin-top: -2rem;
   }
-  #content-second-sentence{
-    margin-top: -1em;
+
+  #content-second-sentence {
+    margin-top: -1rem;
   }
-  .overall-section-wrapper{
+
+  .overall-section-wrapper {
     background-image: image-url("background_pc.png");
     background-attachment: scroll;
   }
   // Service Section
-  .service-category-block p{
-    font-size: 3em;
+  .service-category-block p {
+    font-size: 3rem;
   }
-  .service-name-block p{
-    font-size: 1.2em;
+
+  .service-name-block p {
+    font-size: 1.2rem;
   }
-  .service-description-block p{
-    font-size: 1.3em;
+
+  .service-description-block p {
+    font-size: 1.3rem;
   }
-  .service-image-section{
+
+  .service-image-section {
     height: 675px;
     width: 900px;
   }
   // Team Section
   // Contact Section
-  .contact-text-block{
-    margin-left: 5em;
+  .contact-text-block {
+    margin-left: 5rem;
   }
-  .contact-text-title p{
-    font-size: 3em;
+
+  .contact-text-title p {
+    font-size: 3rem;
   }
-  .contact-text-description p{
-    margin-top: 1.5em;
+
+  .contact-text-description p {
+    margin-top: 1.5rem;
   }
-  .contact-map-block{
-    margin-left: 5em;
+
+  .contact-map-block {
+    margin-left: 5rem;
   }
-  p.description{
+
+  p.description {
     font-weight: lighter;
-    font-size: 1.15em;
+    font-size: 1.15rem;
     color: #000000;
   }
-  P.email{
-    font-size: 1em;
+
+  P.email {
+    font-size: 1rem;
   }
-  p.address{
-    font-size: 1em;
+
+  p.address {
+    font-size: 1rem;
   }
 }

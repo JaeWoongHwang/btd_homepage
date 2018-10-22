@@ -1,237 +1,269 @@
 /* iPad (세로) ----------- */
 @media only screen and (device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait) {
   // Overall Section
-  .overall-section-wrapper{
+  .overall-section-wrapper {
     background-image: image-url("background_tb.png");
     background-attachment: scroll;
   }
-  .overall-content-wrapper{
+
+  .overall-content-wrapper {
     width: 90%;
-    margin-left: 2em;
+    margin-left: 2rem;
   }
-  .overall-empty-wrapper{
+
+  .overall-empty-wrapper {
     width: 10%;
   }
   // Service Section
-  .service-text-section{
+  .service-text-section {
     height: 40%;
   }
-  .service-image-section{
+
+  .service-image-section {
     height: 55%;
     width: 100%;
-    margin-top: -5em;
+    margin-top: -5rem;
   }
-  .service-empty-block{
+
+  .service-empty-block {
     height: 0;
   }
-  .service-description-block{
+
+  .service-description-block {
     width: 80%;
   }
-  .service-category-block p{
-    font-size: 3em;
+
+  .service-category-block p {
+    font-size: 3rem;
   }
-  .service-name-block p{
-    font-size: 1.5em;
-    margin-top: -1em;
+
+  .service-name-block p {
+    font-size: 1.5rem;
+    margin-top: -1rem;
   }
-  .service-description-block p{
-    font-size: 1.2em;
-    margin-top: -1em;
+
+  .service-description-block p {
+    font-size: 1.2rem;
+    margin-top: -1rem;
   }
   // Slider Button
   .fp-controlArrow.fp-prev {
-    margin-top: 8em;
+    margin-top: 8rem;
     margin-left: 0;
   }
+
   .fp-controlArrow.fp-next {
-    margin-top: 8em;
+    margin-top: 8rem;
     margin-right: 0;
   }
   // Team Section
-  .team-introduction-section{
+  .team-introduction-section {
     flex-direction: column;
   }
-  .team-introduction-first-block{
+
+  .team-introduction-first-block {
     height: 50%;
     width: 100%;
     justify-content: center;
   }
-  .team-introduction-second-block{
+
+  .team-introduction-second-block {
     height: 50%;
     width: 100%;
     justify-content: center;
   }
-  .team-introduction-box{
+
+  .team-introduction-box {
     height: 70%;
     width: 40%;
   }
-  .team-introduction-box-last{
+
+  .team-introduction-box-last {
     height: 70%;
     width: 40%;
-    margin-right: 2em;
+    margin-right: 2rem;
   }
-  .team-image-box{
+
+  .team-image-box {
     height: 70%;
     width: 100%;
   }
-  .team-text-box{
+
+  .team-text-box {
     height: 30%;
     width: 100%;
   }
-  .team-text-name{
+
+  .team-text-name {
     height: 100%;
     width: 100%;
-    border: 0px solid;
-    border-color: trensparent;
+    border: 0 solid;
+    border-color: transparent;
   }
-  .team-text-content{
-    height: 0%;
-    width: 0%;
+
+  .team-text-content {
+    height: 0;
+    width: 0;
   }
-  p.name{
-    font-size: 1.2em;
+
+  p.name {
+    font-size: 1.2rem;
   }
-  p.position{
-    font-size: 1em;
+
+  p.position {
+    font-size: 1rem;
   }
-  .team-text-content p{
-    font-size: 0em;
-    color: trensparent;
-  }
-  #bonkyoung{
-    background-image: image-url("profile_ipad_bk.png");
-    background-size: cover;
-  }
-  #hyunseob{
-    background-image: image-url("profile_ipad_hs.png");
-    background-size: cover;
-  }
-  #dongkeun{
-    background-image: image-url("profile_ipad_dk.png");
-    background-size: cover;
-  }
-  #jaewoong{
-    background-image: image-url("profile_ipad_jw.png");
-    background-size: cover;
+
+  .team-text-content p {
+    font-size: 0;
+    color: transparent;
   }
   // Contact Section
-  .contact-content-section{
+  .contact-content-section {
     flex-direction: column;
   }
-  .contact-text-block{
-    height: 55%;
-    width: 100%;
-    margin-left: 5em;
-  }
-  .contact-text-description{
-    width: 100%;
-  }
-  .contact-text-title p{
-    font-size: 3em;
-  }
-  .contact-text-description{
-    margin-top: 3em;
-  }
-  p.description{
-    font-size: 1.2em;
-  }
-  p.email{
-    font-size: 1em;
-    margin-top: 1em;
-  }
-  p.address{
-    font-size: 1em;
-    margin-top: 0.5em;
-  }
-  .contact-empty-block{
+
+  .contact-text-block {
     height: 40%;
     width: 100%;
+    margin-left: 5rem;
   }
-  .contact-map-block{
-    height: 40%;
+
+  .contact-text-description {
+    width: 100%;
+  }
+
+  .contact-text-title p {
+    font-size: 3rem;
+  }
+
+  .contact-text-description {
+    margin-top: 3rem;
+  }
+
+  p.description {
+    font-size: 1.2rem;
+  }
+
+  p.email {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+
+  p.address {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  .contact-empty-block {
+    height: 10%;
+    width: 100%;
+  }
+
+  .contact-map-block {
+    height: 50%;
     width: 100%;
   }
 }
 /* iPad (가로) ----------- */
 @media only screen and (device-width: 768px) and (max-device-width: 1024px) and (orientation : landscape) {
   // Overall Section
-  .overall-text-company p{
-    font-size: 1.2em;
+  .overall-text-company p {
+    font-size: 1.2rem;
   }
-  .overall-text-title p{
-    font-size: 2.5em;
+
+  .overall-text-title p {
+    font-size: 2.5rem;
   }
-  .overall-text-content p{
-    font-size: 1em;
+
+  .overall-text-content p {
+    font-size: 1rem;
   }
   // Service Section
-  .service-description-block{
+  .service-description-block {
     width: 90%;
   }
-  .service-category-block p{
-    font-size: 2.5em;
+
+  .service-category-block p {
+    font-size: 2.5rem;
   }
-  .service-description-block p{
-    font-size: 1.2em;
+
+  .service-description-block p {
+    font-size: 1.2rem;
   }
   // Team Section
-  .team-text-box p{
-    font-size: 2.5em;
+  .team-text-box p {
+    font-size: 2.5rem;
   }
-  .team-text-name p{
-    font-size: 1.2em;
+
+  .team-text-name p {
+    font-size: 1.2rem;
   }
-  .team-text-content p{
-    font-size: 0%;
-    color: trensparent;
+
+  .team-text-content p {
+    font-size: 0;
+    color: transparent;
   }
-  .team-introduction-first-block{
+
+  .team-introduction-first-block {
     align-items: baseline;
   }
-  .team-introduction-box{
+
+  .team-introduction-box {
     height: 85%;
     width: 30%;
   }
-  .team-introduction-box-last{
+
+  .team-introduction-box-last {
     height: 80%;
     width: 20%;
   }
-  .team-image-box{
+
+  .team-image-box {
     height: 60%;
   }
-  .team-text-name{
+
+  .team-text-name {
     height: 15%;
   }
-  .team-text-content{
+
+  .team-text-content {
     height: 25%;
   }
-  .team-introduction-second-block{
+
+  .team-introduction-second-block {
     align-items: baseline;
   }
-  #bonkyoung{
+
+  #bonkyoung {
     background-image: image-url("profile_ipad_bk.png");
     background-size: cover;
   }
-  #hyunseob{
+
+  #hyunseob {
     background-image: image-url("profile_ipad_hs.png");
     background-size: cover;
   }
-  #dongkeun{
+
+  #dongkeun {
     background-image: image-url("profile_ipad_dk.png");
     background-size: cover;
   }
-  #jaewoong{
+
+  #jaewoong {
     background-image: image-url("profile_ipad_jw.png");
     background-size: cover;
   }
   // Contact Section
-  .contact-text-title p{
-    font-size: 2.5em;
+  .contact-text-title p {
+    font-size: 2.5rem;
   }
-  .contact-text-description p{
-    font-size: 1.2em;
+
+  .contact-text-description p {
+    font-size: 1.2rem;
   }
-  .contact-empty-block{
+
+  .contact-empty-block {
     height: 100%;
     width: 15%;
   }
@@ -239,389 +271,365 @@
 /* iPad Pro(세로) ----------- */
 @media screen and (device-width: 1024px) and (max-device-width: 1366px) and (orientation : portrait) {
   // Overall Section
-  .overall-section-wrapper{
+  .overall-section-wrapper {
     background-image: image-url("background_tb.png");
     background-size: cover;
   }
-  .overall-content-wrapper{
+
+  .overall-content-wrapper {
     width: 90%;
   }
-  .overall-empty-wrapper{
+
+  .overall-empty-wrapper {
     width: 10%;
   }
-  .overall-text-company{
+
+  .overall-text-company {
     height: 10%;
     width: 100%;
   }
-  .overall-text-title{
+
+  .overall-text-title {
     height: 40%;
     width: 100%;
   }
-  .overall-text-content{
+
+  .overall-text-content {
     height: 50%;
     width: 100%;
   }
-  .overall-text-company p{
-    font-size: 2em;
-  }
-  .overall-text-title p{
-    font-size: 4.8em;
-  }
-  .overall-text-content p{
-    font-size: 1.6em;
-  }
-  #content-second-sentence{
-    margin-top: 0.5em;
+
+  .overall-text-company p {
+    font-size: 2rem;
   }
 
+  .overall-text-title p {
+    font-size: 4.8rem;
+  }
+
+  .overall-text-content p {
+    font-size: 1.6rem;
+  }
+
+  #content-second-sentence {
+    margin-top: 0.5rem;
+  }
   // Service Section
-  .service-text-section{
+  .service-text-section {
     height: 40%;
   }
-  .service-image-section{
+
+  .service-image-section {
     width: 80%;
     height: 60%;
-    margin-top: -4em;
+    margin-top: -4rem;
   }
-  .service-empty-block{
+
+  .service-empty-block {
     height: 5%;
   }
-  .service-category-block{
+
+  .service-category-block {
     height: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .service-name-block{
+
+  .service-name-block {
     height: 15%;
   }
-  .service-description-block{
+
+  .service-description-block {
     height: 35%;
     width: 80%;
   }
-  .service-category-block p{
-    font-size: 4em;
+
+  .service-category-block p {
+    font-size: 4rem;
   }
-  .service-name-block p{
-    font-size: 1.8em;
+
+  .service-name-block p {
+    font-size: 1.8rem;
   }
-  .service-description-block p{
-    font-size: 1.6em;
+
+  .service-description-block p {
+    font-size: 1.6rem;
     margin-top: 0;
   }
-  .image-fanthecall{
+
+  .image-fanthecall {
     background-image: image-url("fanthecall_tb.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
-  .image-maskfanthe{
+
+  .image-maskfanthe {
     background-image: image-url("maskfanthe_tb.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
-  .image-fanmong{
+
+  .image-fanmong {
     background-image: image-url("fanmong_tb.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
-  .image-fanshow{
+
+  .image-fanshow {
     background-image: image-url("fanshow_tb.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
-  .image-fanality{
+
+  .image-fanality {
     background-image: image-url("fanality_tb.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
-  .image-fandrama{
+
+  .image-fandrama {
     background-image: image-url("fandrama_tb.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
   // Slider Button
   .fp-controlArrow.fp-prev {
-    margin-top: 12em;
-    margin-left: 2em;
+    margin-top: 12rem;
+    margin-left: 2rem;
   }
+
   .fp-controlArrow.fp-next {
-    margin-top: 12em;
-    margin-right: 2em;
+    margin-top: 12rem;
+    margin-right: 2rem;
   }
   // Team Section
-  .team-text-title{
+  .team-text-title {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 0;
   }
-  .team-text-effect{
-    font-size: 4em;
+
+  .team-text-effect {
+    font-size: 4rem;
   }
-  .team-text-description p{
-    font-size: 1.6em;
+
+  .team-text-description {
+    width: 85%;
   }
-  .team-introduction-section{
+
+  .team-text-description p {
+    font-size: 1.6rem;
+    margin-top: 0;
+  }
+
+  .team-introduction-section {
     flex-direction: column;
   }
-  .team-introduction-first-block{
-    height: 50%;
-    width: 100%;
-    justify-content: center;
+
+  .team-card-body {
+    width: 300px;
+    height: 80%;
   }
-  .team-introduction-second-block{
-    height: 50%;
-    width: 100%;
-    justify-content: center;
-    align-items: flex-start;
+
+  .team-card-description p {
+    font-size: 1.5rem;
   }
-  .team-introduction-box{
-    height: 65%;
-    width: 55%;
-  }
-  .team-introduction-box-last{
-    height: 65%;
-    width: 50%;
-    margin-right: 2em;
-  }
-  .team-image-box{
-    height: 65%;
-    width: 100%;
-  }
-  .team-text-box{
-    height: 35%;
-    width: 100%;
-  }
-  .team-text-name{
-    height: 40%;
-    border: 0px solid;
-    border-color: trensparent;
-  }
-  .team-text-content{
-    height: 60%;
-    margin-top: 1em;
-    margin-left: 0.2em;
-  }
-  p.name{
-    font-size: 1.2em;
-  }
-  p.position{
-    font-size: 1em;
-  }
-  p.content{
-    font-size: 0.9em;
-  }
-  #bonkyoung{
-    background-image: image-url("profile_ipad_bk.png");
-    background-size: contain;
-  }
-  #hyunseob{
-    background-image: image-url("profile_ipad_hs.png");
-    background-size: contain;
-  }
-  #dongkeun{
-    background-image: image-url("profile_ipad_dk.png");
-    background-size: contain;
-  }
-  #jaewoong{
-    background-image: image-url("profile_ipad_jw.png");
-    background-size: contain;
+
+  .team-card-description span {
+    font-size: 1.3rem;
   }
   // Contact Section
-  .contact-content-section{
+  .contact-content-section {
     flex-direction: column;
   }
-  .contact-text-block{
+
+  .contact-text-block {
     height: 40%;
     width: 100%;
-    margin-left: 5em;
+    margin-left: 5rem;
     justify-content: flex-start;
   }
-  .contact-text-description{
+
+  .contact-text-description {
     width: 100%;
   }
-  .contact-text-title p{
-    font-size: 4em;
-  }s
-  .contact-empty-block{
-    height: 0%;
-    width: 0%;
+
+  .contact-text-title p {
+    font-size: 4rem;
   }
-  .contact-map-block{
+
+  s .contact-empty-block {
+    height: 0;
+    width: 0;
+  }
+
+  .contact-map-block {
     height: 60%;
     width: 100%;
   }
-  p.description{
-    font-size: 1.6em;
+
+  p.description {
+    font-size: 1.6rem;
   }
-  p.email{
-    font-size: 1.4em;
+
+  p.email {
+    font-size: 1.4rem;
   }
-  p.address{
-    font-size: 1.4em;
+
+  p.address {
+    font-size: 1.4rem;
   }
 }
 /* iPad Pro (가로) ----------- */
 @media screen and (min-device-width: 1025px) and (max-device-width: 1366px) and (orientation : landscape) {
   // Overall Section
-  .overall-content-wrapper{
+  .overall-content-wrapper {
     width: 90%;
     height: 100%;
   }
-  .overall-empty-wrapper{
+
+  .overall-empty-wrapper {
     width: 10%;
     height: 100%;
   }
-  .overall-text-title{
+
+  .overall-text-title {
     align-items: center;
   }
-  .overall-text-company p{
-    font-size: 2.2em;
+
+  .overall-text-company p {
+    font-size: 2.2rem;
   }
-  .overall-text-title p{
-    font-size: 4.5em;
+
+  .overall-text-title p {
+    font-size: 4.5rem;
   }
-  .overall-text-content p{
-    font-size: 1.6em;
+
+  .overall-text-content p {
+    font-size: 1.6rem;
   }
-  .overall-section-wrapper{
+
+  .overall-section-wrapper {
     background-image: image-url("background_tb.png");
     background-size: cover;
   }
   // Service Section
-  .service-empty-block{
-    width: 0%;
+  .service-empty-block {
+    width: 0;
   }
-  .service-text-section{
+
+  .service-text-section {
     height: 30%;
   }
-  .service-image-section{
+
+  .service-image-section {
     height: 65%;
   }
-  .service-description-block{
+
+  .service-description-block {
     width: 65%;
   }
-  .service-category-block p{
-    font-size: 4em;
+
+  .service-category-block p {
+    font-size: 4rem;
   }
-  .service-name-block p{
-    font-size: 1.5em;
+
+  .service-name-block p {
+    font-size: 1.5rem;
   }
-  .service-description-block p{
-    font-size: 1.5em;
+
+  .service-description-block p {
+    font-size: 1.5rem;
   }
+
   .fp-controlArrow.fp-prev {
-    margin-left: 4.5em;
+    margin-left: 4.5rem;
   }
+
   .fp-controlArrow.fp-next {
-    margin-right: 4.5em;
+    margin-right: 4.5rem;
   }
   // Team Section
-  .team-text-section{
+  .team-text-section {
     height: 25%;
   }
-  .team-introduction-section{
+
+  .team-introduction-section {
     height: 75%;
   }
-  .team-head-block{
-    height: 30%;
+
+  .team-head-block {
+    height: 100%;
   }
-  .team-text-description{
-    height: 70%;
-    margin-top: 1.5em;
+
+  .team-text-title {
+    height: 50%;
   }
-  .team-text-effect{
-    font-size: 4em;
+
+  .team-text-description {
+    width: 90%;
+    height: 50%;
   }
-  .team-text-description p{
-    font-size: 1.5em;
+
+  .team-text-effect {
+    font-size: 4rem;
   }
-  .team-introduction-first-block{
-    align-items: flex-start;
+
+  .team-text-description p {
+    font-size: 1.5rem;
+    margin-top: 0;
   }
-  .team-introduction-second-block{
-    align-items: flex-start;
-  }
-  .team-introduction-box{
-    height: 45%;
-    width: 45%;
-    margin-top: 4em;
-  }
-  .team-introduction-box-last{
-    height: 45%;
-    width: 45%;
-    margin-top: 4em;
-  }
-  .team-image-box{
-    height: 65%;
-  }
-  .team-text-box{
-    height: 35%;
-  }
-  p.name{
-    font-size: 1.1em;
-  }
-  p.position{
-    font-size: 1em;
-  }
-  .team-text-content p{
-    font-size: 0.8em;
-  }
-  #bonkyoung{
-    background-image: image-url("profile_ipad_bk.png");
-    background-size: contain;
-  }
-  #hyunseob{
-    background-image: image-url("profile_ipad_hs.png");
-    background-size: contain;
-  }
-  #dongkeun{
-    background-image: image-url("profile_ipad_dk.png");
-    background-size: contain;
-  }
-  #jaewoong{
-    background-image: image-url("profile_ipad_jw.png");
-    background-size: contain;
+
+  .team-card-body {
+    width: 220px;
+    height: 90%;
   }
   // Contact Section
-  .contact-content-section{
+  .contact-text-block {
+    width: 45%;
+    margin-left: 5rem;
+    margin-top: 7rem;
+    display: inherit;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-  .contact-text-block{
-    height: 40%;
-    width: 100%;
-    margin-left: 5em;
-    margin-bottom: 6em;
-  }
-  .contact-text-description{
-    width: 100%;
-  }
-  .contact-text-title p{
-    font-size: 4em;
-  }
-  p.description{
-    font-size: 1.5em;
-  }
-  p.email{
-    font-size: 1.2em;
-  }
-  p.address{
-    font-size: 1.2em;
-  }
-  .contact-empty-block{
-    height: 5%;
-    width: 100%;
-  }
-  .contact-map-block{
-    height: 40%;
-    width: 100%;
-    margin-left: 5em;
-  }
-}
 
+  .contact-empty-block {
+    visibility: hidden;
+  }
+
+  .contact-map-block {
+    width: 55%;
+    margin-left: 5rem;
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-text-description {
+    width: 100%;
+  }
+
+  .contact-text-title p {
+    font-size: 4rem;
+  }
+
+  p.description {
+    font-size: 1.5rem;
+  }
+
+  p.email {
+    font-size: 1.2rem;
+  }
+
+  p.address {
+    font-size: 1.2rem;
+  }
+}
 /* iPad Mini(세로) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 1)  {
-}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 1) {}
 /* iPad Mini(가로) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio: 1)  {
-}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio: 1) {}

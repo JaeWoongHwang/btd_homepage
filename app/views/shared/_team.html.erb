@@ -2,90 +2,94 @@
   <div class="team-text-section">
     <div class="team-head-block">
       <div class="team-text-title">
-        <p class="team-text-effect">TEAM STORY</p>
+        <p class="team-text-effect">Team Story</p>
       </div>
       <div class="team-text-description">
-        <p>서로의 다름을 인정하고 개인의 가치관를 존중하며 모두의 꿈을 실현하기 위해 함께 노력하고 성장하는, 우리는 Beyond the Dream을 바라보는 사람들입니다.</p>
+        <p>서로의 다름을 인정하고 모두의 꿈을 실현하기 위해 노력하고 성장하는, 우리는 Beyond the Dream 사람들입니다.</p>
       </div>
     </div>
   </div>
   <div class="team-introduction-section">
-    <div class="team-introduction-first-block">
-      <div class="team-introduction-box">
-        <div class="team-image-box" id="bonkyoung">
-        </div>
-        <div class="team-text-box">
-          <div class="team-text-name">
-            <p class="name">BONKYOUNG GU</p><p class="position">CEO</p>
-          </div>
-          <div class="team-text-content">
-            <p>영화, 만화를 사랑하고, 노력하는 크리에이터를 리스펙하는 아재. 아이즈원 & 원영이 무럭무럭 자라자!</p>
-          </div>
+    <div class="team-card-block-top">
+      <div class="team-card-body">
+        <div class="team-card-image" id="gbk"></div>
+        <div class="team-card-description">
+          <strong>
+            <p>BonKyung Gu</p>
+          </strong>
+          <span>대표</span>
+          <span></span>
         </div>
       </div>
-      <div class="team-introduction-box">
-        <div class="team-image-box" id="hyunseob">
+      <div class="team-card-body">
+        <div class="team-card-image" id="koy"></div>
+        <div class="team-card-description">
+          <strong>
+            <p>On Yu Kim</p>
+          </strong>
+          <span id="team-position">콘텐츠 팀</span><span>과장</span>
         </div>
-        <div class="team-text-box">
-          <div class="team-text-name">
-            <p class="name">OSCAR</p><p class="position">Engineer</p>
-          </div>
-          <div class="team-text-content">
-            <p>개발팀 주요전력입니다.갬성돋는 음악을 하는 뮤지션을 좋아합니다.<br/>예를 들자면, 레드벨벳</p>
-          </div>
+      </div>
+      <div class="team-card-body">
+        <div class="team-card-image" id="ahs"></div>
+        <div class="team-card-description">
+          <strong>
+            <p>HyunSeob Ahn</p>
+          </strong>
+          <span id="team-position">개발팀</span><span>선임</span>
         </div>
       </div>
     </div>
-    <div class="team-introduction-second-block">
-      <div class="team-introduction-box">
-        <div class="team-image-box" id="dongkeun">
-        </div>
-        <div class="team-text-box">
-          <div class="team-text-name">
-            <p class="name">DONGKEUN OH</p><p class="position">Engineer</p>
-          </div>
-          <div class="team-text-content">
-            <p>개발팀 막내지만 형들한테 서슴없이 반말하는 당찬 패기가 있습니다.<br/>마마무 팬입니다.</p>
-          </div>
+    <div class="team-card-block-bottom">
+      <div class="team-card-body">
+        <div class="team-card-image" id="hjw"></div>
+        <div class="team-card-description">
+          <strong>
+            <p>JaeWoong Hwang</p>
+          </strong>
+          <span id="team-position">개발팀</span><span>선임</span>
         </div>
       </div>
-      <div class="team-introduction-box-last">
-        <div class="team-image-box" id="jaewoong">
+      <div class="team-card-body">
+        <div class="team-card-image" id="odk"></div>
+        <div class="team-card-description">
+          <strong>
+            <p>DongKeun Oh</p>
+          </strong>
+          <span id="team-position">개발팀</span><span>주임</span>
         </div>
-        <div class="team-text-box">
-          <div class="team-text-name">
-            <p class="name">JAEWOONG</p><p class="position">Engineer&Marketer</p>
-          </div>
-          <div class="team-text-content">
-            <p>개발과 마케팅 사이 어딘가에 걸쳐 있습니다. 실력을 기르는 것이 올해의 목표. 브라운아이즈 좋아합니다.</p>
-          </div>
+      </div>
+      <div class="team-card-body">
+        <div class="team-card-image" id="psm"></div>
+        <div class="team-card-description">
+          <strong>
+            <p>SunMin Park</p>
+          </strong>
+          <span id="team-position">콘텐츠 팀</span><span>사원</span>
         </div>
       </div>
     </div>
   </div>
 </div>
-<!--Text Effect  -->
+<!--Text Effect -->
 <script>
-  $('.team-text-effect').each(function(){
+  $('.team-text-effect').each(function () {
     $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
   });
 
-  anime.timeline({loop: true})
-    .add({
-      targets: '.team-text-effect .letter',
-      scale: [4,1],
-      opacity: [0,1],
-      translateZ: 0,
-      easing: "easeOutExpo",
-      duration: 1500,
-      delay: function(el, i) {
-        return 70*i;
-      }
-    }).add({
-      targets: '.team-text-effect',
-      opacity: 0,
-      duration: 1000,
-      easing: "easeOutExpo",
-      delay: 7000
-    });
+  anime.timeline({loop: true}).add({
+    targets: '.team-text-effect .letter',
+    scale: [
+      4, 1
+    ],
+    opacity: [
+      0, 1
+    ],
+    translateZ: 0,
+    easing: "easeOutExpo",
+    duration: 1500,
+    delay: function (el, i) {
+      return 70 * i;
+    }
+  }).add({targets: '.team-text-effect', opacity: 0, duration: 1000, easing: "easeOutExpo", delay: 7000});
 </script>
