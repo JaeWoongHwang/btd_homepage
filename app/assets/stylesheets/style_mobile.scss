@@ -2,7 +2,7 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation : portrait) {
   // Navbar
   #navbar {
-    visibility: hidden;
+    display: none;
   }
   // Overall Section
   .overall-content-wrapper {
@@ -297,7 +297,7 @@
 @media only screen and (min-device-width: 321px) and (max-device-width: 811px) and (orientation : landscape) {
   // Navbar
   #navbar {
-    visibility: hidden;
+    display: none;
   }
   // Overall Section
   .overall-content-wrapper {
@@ -399,7 +399,7 @@
   }
 }
 /* iPhoneX (가로 ) ----------- */
-@media only screen and (min-device-width:375px) and (max-device-width: 812px) and (orientation : landscape) {
+@media only screen and (min-device-width:375px) and (max-device-width: 823px) and (orientation : landscape) {
   // Overall Section
   .overall-content-section {
     margin-left: -5rem;
@@ -615,7 +615,7 @@
   }
 
   .overall-empty-wrapper {
-    visibility: hidden;
+    display: none;
   }
 
   .overall-content-section {
@@ -864,7 +864,7 @@
   }
 
   .contact-empty-block {
-    visibility: hidden;
+    display: none;
   }
 
   .contact-map-block {
