@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1023px) {
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
   // Overall Section
   .overall-section-wrapper {
     background-image: image-url("background_tb.png");
@@ -48,22 +48,28 @@
     font-size: 3rem;
   }
 
-  .service-name-block p {
-    font-size: 1.4rem;
-    margin-top: 0.5rem;
-  }
-
   .service-description-block p {
     font-size: 1rem;
     margin-top: 1rem;
   }
+
+  .service-text-section {
+    height: 30%;
+  }
+
+  .service-image-section {
+    height: 70%;
+    width: 900px;
+  }
   // Slider Button
   .fp-controlArrow.fp-prev {
-    margin-top: 4rem;
+    margin-top: 6rem;
+    margin-left: 3rem;
   }
 
   .fp-controlArrow.fp-next {
-    margin-top: 4rem;
+    margin-top: 6rem;
+    margin-right: 3rem;
   }
   // Team Section
   .team-text-title {
@@ -180,12 +186,17 @@
     margin-top: -1rem;
   }
   // Service Section
+  .service-text-section {
+    height: 30%;
+  }
+
   .service-image-section {
-    height: 65%;
+    height: 70%;
+    width: 900px;
   }
 
   .service-empty-block {
-    height: 0;
+    display: none;
   }
 
   .service-description-block {
@@ -199,54 +210,89 @@
   }
 
   .image-fanthecall {
-    background-image: image-url("fanthecall_tb.png");
+    background-image: image-url("fanthecall.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
   }
 
   .image-maskfanthe {
-    background-image: image-url("maskfanthe_tb.png");
+    background-image: image-url("maskfanthe.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
   }
 
   .image-fanmong {
-    background-image: image-url("fanmong_tb.png");
+    background-image: image-url("fanmong.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
   }
 
   .image-fanshow {
-    background-image: image-url("fanshow_tb.png");
+    background-image: image-url("fanshow.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
   }
 
   .image-fanality {
-    background-image: image-url("fanality_tb.png");
+    background-image: image-url("fanality.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
   }
 
   .image-fandrama {
-    background-image: image-url("fandrama_tb.png");
+    background-image: image-url("fandrama.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .image-fancast {
+    background-image: image-url("fancast.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .image-fanfight {
+    background-image: image-url("fanfight.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .image-mslive {
+    background-image: image-url("mslive.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .image-secretdol {
+    background-image: image-url("secretdol.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .image-sherlockfans {
+    background-image: image-url("sherlockfans.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
   }
   // Slider Button
   .fp-controlArrow.fp-prev {
-    margin-left: 0.5rem;
+    margin-left: 2rem;
     margin-top: 5rem;
   }
 
   .fp-controlArrow.fp-next {
-    margin-right: 0.5rem;
+    margin-right: 2rem;
     margin-top: 5rem;
   }
   // Team Section
@@ -290,7 +336,7 @@
   }
 }
 /* PC 및 노트북 ----------- */
-@media only screen and (min-width: 1224px) {
+@media only screen and (min-width: 1225px) {
   // Overall Section
   .overall-content-wrapper {
     width: 90%;
@@ -346,11 +392,103 @@
 
   .service-description-block p {
     font-size: 1.1rem;
+    margin-top: 0;
+  }
+
+  .service-text-section {
+    height: 30%;
   }
 
   .service-image-section {
-    height: 675px;
+    height: 70%;
     width: 900px;
+  }
+
+  .image-fanthecall {
+    background-image: image-url("fanthecall.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .image-maskfanthe {
+    background-image: image-url("maskfanthe.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .image-fanmong {
+    background-image: image-url("fanmong.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .image-fanshow {
+    background-image: image-url("fanshow.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .image-fanality {
+    background-image: image-url("fanality.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .image-fandrama {
+    background-image: image-url("fandrama.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .image-fancast {
+    background-image: image-url("fancast.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .image-fanfight {
+    background-image: image-url("fanfight.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .image-mslive {
+    background-image: image-url("mslive.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .image-secretdol {
+    background-image: image-url("secretdol.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .image-sherlockfans {
+    background-image: image-url("sherlockfans.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  // Slider Button
+  .fp-controlArrow.fp-prev {
+    margin-top: 5rem;
+    margin-left: 5rem;
+  }
+
+  .fp-controlArrow.fp-next {
+    margin-top: 5rem;
+    margin-right: 5rem;
   }
   // Team Section
   .team-text-description p {
@@ -443,8 +581,12 @@
     font-size: 1.1rem;
   }
 
+  .service-text-section {
+    height: 30%;
+  }
+
   .service-image-section {
-    height: 675px;
+    height: 70%;
     width: 900px;
   }
   // Team Section

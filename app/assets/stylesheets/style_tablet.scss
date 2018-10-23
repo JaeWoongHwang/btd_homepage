@@ -16,13 +16,12 @@
   }
   // Service Section
   .service-text-section {
-    height: 40%;
+    height: 30%;
   }
 
   .service-image-section {
-    height: 55%;
-    width: 100%;
-    margin-top: -5rem;
+    height: 70%;
+    width: 600px;
   }
 
   .service-empty-block {
@@ -47,6 +46,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
+    margin-top: 6rem;
   }
 
   .image-maskfanthe {
@@ -54,6 +54,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
+    margin-top: 6rem;
   }
 
   .image-fanmong {
@@ -61,6 +62,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
+    margin-top: 6rem;
   }
 
   .image-fanshow {
@@ -68,6 +70,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
+    margin-top: 6rem;
   }
 
   .image-fanality {
@@ -75,6 +78,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
+    margin-top: 6rem;
   }
 
   .image-fandrama {
@@ -82,15 +86,56 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
+    margin-top: 6rem;
+  }
+
+  .image-fancast {
+    background-image: image-url("fancast_tb.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 6rem;
+  }
+
+  .image-fanfight {
+    background-image: image-url("fanfight_tb.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 6rem;
+  }
+
+  .image-mslive {
+    background-image: image-url("mslive_tb.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 6rem;
+  }
+
+  .image-secretdol {
+    background-image: image-url("secretdol_tb.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 6rem;
+  }
+
+  .image-sherlockfans {
+    background-image: image-url("sherlockfans_tb.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 6rem;
   }
   // Slider Button
   .fp-controlArrow.fp-prev {
-    margin-top: 7rem;
+    margin-top: 6rem;
     margin-left: 0;
   }
 
   .fp-controlArrow.fp-next {
-    margin-top: 7rem;
+    margin-top: 6rem;
     margin-right: 0;
   }
   // Team Section
@@ -180,46 +225,86 @@
     font-size: 1.2rem;
   }
 
+  .service-image-section {
+    width: 900px;
+    height: 70%;
+  }
+
   .image-fanthecall {
-    background-image: image-url("fanthecall_tb.png");
+    background-image: image-url("fanthecall.png");
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
   }
 
   .image-maskfanthe {
-    background-image: image-url("maskfanthe_tb.png");
+    background-image: image-url("maskfanthe.png");
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
   }
 
   .image-fanmong {
-    background-image: image-url("fanmong_tb.png");
+    background-image: image-url("fanmong.png");
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
   }
 
   .image-fanshow {
-    background-image: image-url("fanshow_tb.png");
+    background-image: image-url("fanshow.png");
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
   }
 
   .image-fanality {
-    background-image: image-url("fanality_tb.png");
+    background-image: image-url("fanality.png");
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
   }
 
   .image-fandrama {
-    background-image: image-url("fandrama_tb.png");
+    background-image: image-url("fandrama.png");
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
+  }
+
+  .image-fancast {
+    background-image: image-url("fancast.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .image-fanfight {
+    background-image: image-url("fanfight.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .image-mslive {
+    background-image: image-url("mslive.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .image-secretdol {
+    background-image: image-url("secretdol.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .image-sherlockfans {
+    background-image: image-url("sherlockfans.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   // Team Section
   .team-text-box p {
@@ -322,13 +407,100 @@
   }
   // Service Section
   .service-text-section {
-    height: 40%;
+    height: 30%;
   }
 
   .service-image-section {
-    width: 80%;
-    height: 60%;
-    margin-top: -4rem;
+    height: 70%;
+    width: 900px;
+  }
+
+  .image-fanthecall {
+    background-image: image-url("fanthecall.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 6rem;
+  }
+
+  .image-maskfanthe {
+    background-image: image-url("maskfanthe.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 6rem;
+  }
+
+  .image-fanmong {
+    background-image: image-url("fanmong.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 6rem;
+  }
+
+  .image-fanshow {
+    background-image: image-url("fanshow.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 6rem;
+  }
+
+  .image-fanality {
+    background-image: image-url("fanality.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 6rem;
+  }
+
+  .image-fandrama {
+    background-image: image-url("fandrama.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 6rem;
+  }
+
+  .image-fancast {
+    background-image: image-url("fancast.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 6rem;
+  }
+
+  .image-fanfight {
+    background-image: image-url("fanfight.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 6rem;
+  }
+
+  .image-mslive {
+    background-image: image-url("mslive.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 6rem;
+  }
+
+  .image-secretdol {
+    background-image: image-url("secretdol.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 6rem;
+  }
+
+  .image-sherlockfans {
+    background-image: image-url("sherlockfans.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 6rem;
   }
 
   .service-empty-block {
@@ -360,48 +532,6 @@
   .service-description-block p {
     font-size: 1.6rem;
     margin-top: 0;
-  }
-
-  .image-fanthecall {
-    background-image: image-url("fanthecall_tb.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: top;
-  }
-
-  .image-maskfanthe {
-    background-image: image-url("maskfanthe_tb.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: top;
-  }
-
-  .image-fanmong {
-    background-image: image-url("fanmong_tb.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: top;
-  }
-
-  .image-fanshow {
-    background-image: image-url("fanshow_tb.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: top;
-  }
-
-  .image-fanality {
-    background-image: image-url("fanality_tb.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: top;
-  }
-
-  .image-fandrama {
-    background-image: image-url("fandrama_tb.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: top;
   }
   // Slider Button
   .fp-controlArrow.fp-prev {
@@ -518,7 +648,7 @@
   }
 
   .overall-text-content p {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
   }
 
   .overall-section-wrapper {
@@ -535,7 +665,8 @@
   }
 
   .service-image-section {
-    height: 65%;
+    height: 70%;
+    width: 900px;
   }
 
   .service-description-block {
@@ -555,45 +686,91 @@
   }
 
   .image-fanthecall {
-    background-image: image-url("fanthecall_tb.png");
+    background-image: image-url("fanthecall.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
+    margin-top: 3rem;
   }
 
   .image-maskfanthe {
-    background-image: image-url("maskfanthe_tb.png");
+    background-image: image-url("maskfanthe.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
+    margin-top: 3rem;
   }
 
   .image-fanmong {
-    background-image: image-url("fanmong_tb.png");
+    background-image: image-url("fanmong.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
+    margin-top: 3rem;
   }
 
   .image-fanshow {
-    background-image: image-url("fanshow_tb.png");
+    background-image: image-url("fanshow.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
+    margin-top: 3rem;
   }
 
   .image-fanality {
-    background-image: image-url("fanality_tb.png");
+    background-image: image-url("fanality.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
+    margin-top: 3rem;
   }
 
   .image-fandrama {
-    background-image: image-url("fandrama_tb.png");
+    background-image: image-url("fandrama.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
+    margin-top: 3rem;
+  }
+
+  .image-fancast {
+    background-image: image-url("fancast.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 3rem;
+  }
+
+  .image-fanfight {
+    background-image: image-url("fanfight.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 3rem;
+  }
+
+  .image-mslive {
+    background-image: image-url("mslive.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 3rem;
+  }
+
+  .image-secretdol {
+    background-image: image-url("secretdol.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 3rem;
+  }
+
+  .image-sherlockfans {
+    background-image: image-url("sherlockfans_tb.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 3rem;
   }
 
   .fp-controlArrow.fp-prev {
