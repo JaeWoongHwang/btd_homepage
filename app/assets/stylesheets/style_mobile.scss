@@ -559,14 +559,7 @@
   // Service Section
   .service-text-section {
     height: 30%;
-  }
-
-  .service-category-block {
-    height: 30%;
-  }
-
-  .service-name-block {
-    height: 30%;
+    margin-top: 1rem;
   }
 
   .service-description-block {
@@ -575,98 +568,92 @@
 
   .service-category-block p {
     font-size: 2rem;
-    margin-top: 0;
-  }
-
-  .service-name-block p {
-    font-size: 0.9rem;
-    margin-top: 1rem;
   }
 
   .service-description-block p {
     font-size: 0.8rem;
     line-height: 1.2rem;
-    margin-top: -0.2rem;
+    margin-top: 1rem;
   }
 
   .service-image-section {
     height: 70%;
-    width: 600px;
-    margin-top: 1rem;
+    width: 300px;
+    margin-top: 2rem;
   }
 
   .image-fanthecall {
-    background-image: image-url("fanthecall_tb.png");
+    background-image: image-url("fanthecall_sp.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
   }
 
   .image-maskfanthe {
-    background-image: image-url("maskfanthe_tb.png");
+    background-image: image-url("maskfanthe_sp.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
   }
 
   .image-fanmong {
-    background-image: image-url("fanmong_tb.png");
+    background-image: image-url("fanmong_sp.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
   }
 
   .image-fanshow {
-    background-image: image-url("fanshow_tb.png");
+    background-image: image-url("fanshow_sp.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
   }
 
   .image-fanality {
-    background-image: image-url("fanality_tb.png");
+    background-image: image-url("fanality_sp.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
   }
 
   .image-fandrama {
-    background-image: image-url("fandrama_tb.png");
+    background-image: image-url("fandrama_sp.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
   }
 
   .image-fancast {
-    background-image: image-url("fancast_tb.png");
+    background-image: image-url("fancast_sp.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
   }
 
   .image-fanfight {
-    background-image: image-url("fanfight_tb.png");
+    background-image: image-url("fanfight_sp.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
   }
 
   .image-mslive {
-    background-image: image-url("mslive_tb.png");
+    background-image: image-url("mslive_sp.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
   }
 
   .image-secretdol {
-    background-image: image-url("secretdol_tb.png");
+    background-image: image-url("secretdol_sp.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
   }
 
   .image-sherlockfans {
-    background-image: image-url("sherlockfans_tb.png");
+    background-image: image-url("sherlockfans_sp.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
@@ -674,14 +661,14 @@
   // Slider Button
   .fp-controlArrow.fp-prev {
     border-width: 16.5px 17px 16.5px 0;
-    margin-top: 2.5rem;
-    margin-left: 4.5rem;
+    margin-top: 1rem;
+    margin-left: 7rem;
   }
 
   .fp-controlArrow.fp-next {
     border-width: 16.5px 0 16.5px 17px;
-    margin-top: 2.5rem;
-    margin-right: 4.5rem;
+    margin-top: 1rem;
+    margin-right: 7rem;
   }
   // Team Section
   .team-text-section {
