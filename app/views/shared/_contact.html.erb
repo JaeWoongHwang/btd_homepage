@@ -12,7 +12,7 @@
         <p class="email">
           <i class="far fa-envelope"></i>&nbsp; btd.information@gmail.com</p>
         <p class="address">
-          <i class="fas fa-map-marker-alt"></i>&nbsp;서울특별시 금천구 가산디지털1로 83, 204호</p>
+          <i class="fas fa-map-marker-alt"></i>&nbsp;서울 금천구 가산디지털1로 137, 17층</p>
       </div>
       <div class="contact-empty-block"></div>
     </div>
@@ -47,14 +47,16 @@
 <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=XklzTKnGdUpepvQTZ08c&submodules=geocoder"></script>
 <script type="text/javascript">
   var HOME_PATH = window.HOME_PATH || '.';
-  var btd = new naver.maps.LatLng(37.473219, 126.884288),
+  <!--구글 지도 경도, 위도값-->
+
+  var btd = new naver.maps.LatLng(37.477898, 126.881999),
     map = new naver.maps.Map('map', {
       center: btd,
       zoom: 10
     }),
     marker = new naver.maps.Marker({map: map, position: btd});
 
-  var contentString = ['<div class="iw_inner">', '   <h4>비욘드더드림</h4>', '   <p>서울특별시 금천구 가산디지털1로 83, 204호</p>', '</div>'].join('');
+  var contentString = ['<div class="iw_inner">', '   <h4>비욘드더드림</h4>', '   <p>서울 금천구 가산디지털1로 137, 17층</p>', '</div>'].join('');
 
   var infowindow = new naver.maps.InfoWindow({
     content: contentString,

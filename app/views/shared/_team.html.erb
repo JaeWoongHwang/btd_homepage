@@ -17,17 +17,6 @@
           <strong>
             <p>BonKyoung Gu</p>
           </strong>
-          <span>대표</span>
-          <span></span>
-        </div>
-      </div>
-      <div class="team-card-body">
-        <div class="team-card-image" id="koy"></div>
-        <div class="team-card-description">
-          <strong>
-            <p>On Yu Kim</p>
-          </strong>
-          <span id="team-position">콘텐츠 팀</span><span>과장</span>
         </div>
       </div>
       <div class="team-card-body">
@@ -36,7 +25,6 @@
           <strong>
             <p>HyunSeob Ahn</p>
           </strong>
-          <span id="team-position">개발 팀</span><span>선임</span>
         </div>
       </div>
     </div>
@@ -47,7 +35,6 @@
           <strong>
             <p>JaeWoong Hwang</p>
           </strong>
-          <span id="team-position">개발 팀</span><span>선임</span>
         </div>
       </div>
       <div class="team-card-body">
@@ -56,40 +43,31 @@
           <strong>
             <p>DongKeun Oh</p>
           </strong>
-          <span id="team-position">개발 팀</span><span>주임</span>
-        </div>
-      </div>
-      <div class="team-card-body">
-        <div class="team-card-image" id="psm"></div>
-        <div class="team-card-description">
-          <strong>
-            <p>SunMin Park</p>
-          </strong>
-          <span id="team-position">콘텐츠 팀</span><span>사원</span>
         </div>
       </div>
     </div>
   </div>
 </div>
+</div>
 <!--Text Effect -->
 <script>
-  $('.team-text-effect').each(function () {
-    $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
-  });
+$('.team-text-effect').each(function () {
+  $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+});
 
-  anime.timeline({loop: true}).add({
-    targets: '.team-text-effect .letter',
-    scale: [
-      4, 1
-    ],
-    opacity: [
-      0, 1
-    ],
-    translateZ: 0,
-    easing: "easeOutExpo",
-    duration: 1500,
-    delay: function (el, i) {
-      return 70 * i;
-    }
-  }).add({targets: '.team-text-effect', opacity: 0, duration: 1000, easing: "easeOutExpo", delay: 7000});
+anime.timeline({loop: true}).add({
+  targets: '.team-text-effect .letter',
+  scale: [
+    4, 1
+  ],
+  opacity: [
+    0, 1
+  ],
+  translateZ: 0,
+  easing: "easeOutExpo",
+  duration: 1500,
+  delay: function (el, i) {
+    return 70 * i;
+  }
+}).add({targets: '.team-text-effect', opacity: 0, duration: 1000, easing: "easeOutExpo", delay: 7000});
 </script>
