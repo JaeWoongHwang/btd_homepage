@@ -46,11 +46,28 @@
 <!--Daum Map -->
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=7e982e48144fa63aa467b79c374255aa"></script>
 <script>
-var container = document.getElementById('map');
-var options = {
-  center: new daum.maps.LatLng(주식회사 비욘드더드림, 37.477898, 126.881999),
-  level: 3
-};
+		var mapContainer = document.getElementById('map'), // 지도를 표시할 div
+		    mapOption = {
+		        center: new daum.maps.LatLng(37.477898, 126.881999), // 지도의 중심좌표
+		        level: 3, // 지도의 확대 레벨
+		        mapTypeId : daum.maps.MapTypeId.ROADMAP // 지도종류
+		    };
 
-var map = new daum.maps.Map(container, options);
-</script>
+		// 지도를 생성한다
+		var map = new daum.maps.Map(mapContainer, mapOption);
+
+		// 지도에 마커를 생성하고 표시한다
+		var marker = new daum.maps.Marker({
+		    position: new daum.maps.LatLng(37.477898, 126.881999), // 마커의 좌표
+		    map: map // 마커를 표시할 지도 객체
+		});
+
+		// 마커 위에 표시할 인포윈도우를 생성한다
+		var infowindow = new daum.maps.InfoWindow({
+		    content : '<div style="padding:5px;">주식회사 비욘드더드림</div>' // 인포윈도우에 표시할 내용
+		});
+
+		// 인포윈도우를 지도에 표시한다
+		infowindow.open(map, marker);
+
+	</script>
