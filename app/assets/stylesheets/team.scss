@@ -98,7 +98,7 @@
   display: inherit;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   /*for IE10 */
   -ms-display: flexbox;
 }

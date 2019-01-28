@@ -1,6 +1,3 @@
-<!--Fontawesome Image -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-
 <div class="contact-section-wrapper">
   <div class="contact-content-section">
     <div class="contact-text-block">
@@ -17,10 +14,38 @@
       <div class="contact-empty-block"></div>
     </div>
     <div class="contact-map-block">
-      <div id="map" style="width:100%;height:100%;"></div>
+      <div id="map" style="width:100%; height:500px;"></div>
     </div>
   </div>
 </div>
+
+<!--Daum Map -->
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=7e982e48144fa63aa467b79c374255aa"></script>
+<script>
+  var mapContainer = document.getElementById('map'), // 지도를 표시할 div
+    mapOption = {
+      center: new daum.maps.LatLng(37.477663, 126.881987), // 지도의 중심좌표
+      level: 3, // 지도의 확대 레벨
+      mapTypeId: daum.maps.MapTypeId.ROADMAP // 지도종류
+    };
+
+  // 지도를 생성한다
+  var map = new daum.maps.Map(mapContainer, mapOption);
+
+  // 지도에 마커를 생성하고 표시한다
+  var marker = new daum.maps.Marker({
+    position: new daum.maps.LatLng(37.477663, 126.881987), // 마커의 좌표
+    map: map // 마커를 표시할 지도 객체
+  });
+
+  // 마커 위에 표시할 인포윈도우를 생성한다
+  var infowindow = new daum.maps.InfoWindow({
+    content: '<div style="padding:10px; font-weight:500;">(주)비욘드더드림</div>' // 인포윈도우에 표시할 내용
+  });
+
+  // 인포윈도우를 지도에 표시한다
+  infowindow.open(map, marker);
+</script>
 <!--Text Effect -->
 <script>
   $('.contact-text-effect').each(function () {
@@ -43,31 +68,3 @@
     }
   }).add({targets: '.contact-text-effect', opacity: 0, duration: 1000, easing: "easeOutExpo", delay: 7000});
 </script>
-<!--Daum Map -->
-<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=7e982e48144fa63aa467b79c374255aa"></script>
-<script>
-		var mapContainer = document.getElementById('map'), // 지도를 표시할 div
-		    mapOption = {
-		        center: new daum.maps.LatLng(37.477898, 126.881999), // 지도의 중심좌표
-		        level: 3, // 지도의 확대 레벨
-		        mapTypeId : daum.maps.MapTypeId.ROADMAP // 지도종류
-		    };
-
-		// 지도를 생성한다
-		var map = new daum.maps.Map(mapContainer, mapOption);
-
-		// 지도에 마커를 생성하고 표시한다
-		var marker = new daum.maps.Marker({
-		    position: new daum.maps.LatLng(37.477898, 126.881999), // 마커의 좌표
-		    map: map // 마커를 표시할 지도 객체
-		});
-
-		// 마커 위에 표시할 인포윈도우를 생성한다
-		var infowindow = new daum.maps.InfoWindow({
-		    content : '<div style="padding:5px;">주식회사 비욘드더드림</div>' // 인포윈도우에 표시할 내용
-		});
-
-		// 인포윈도우를 지도에 표시한다
-		infowindow.open(map, marker);
-
-	</script>
