@@ -43,38 +43,14 @@
     }
   }).add({targets: '.contact-text-effect', opacity: 0, duration: 1000, easing: "easeOutExpo", delay: 7000});
 </script>
-<!--Naver Map API -->
-<script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=XklzTKnGdUpepvQTZ08c&submodules=geocoder"></script>
-<script type="text/javascript">
-  var HOME_PATH = window.HOME_PATH || '.';
-  <!--구글 지도 경도, 위도값-->
+<!--Daum Map -->
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=7e982e48144fa63aa467b79c374255aa"></script>
+<script>
+var container = document.getElementById('map');
+var options = {
+  center: new daum.maps.LatLng(523954.0, 1084098.0),
+  level: 3
+};
 
-  var btd = new naver.maps.LatLng(37.477898, 126.881999),
-    map = new naver.maps.Map('map', {
-      center: btd,
-      zoom: 10
-    }),
-    marker = new naver.maps.Marker({map: map, position: btd});
-
-  var contentString = ['<div class="iw_inner">', '<h4>비욘드더드림</h4>', '<p>서울 금천구 가산디지털1로 137, 17층</p>', '</div>'].join('');
-
-  var infowindow = new naver.maps.InfoWindow({
-    content: contentString,
-    maxWidth: 180,
-    backgroundColor: "#f2f2f2",
-    borderColor: "#000000",
-    borderWidth: 3,
-    anchorSize: new naver.maps.Size(30, 30),
-    anchorSkew: true,
-    anchorColor: "#eee",
-    pixelOffset: new naver.maps.Point(20, -20)
-  });
-
-  naver.maps.Event.addListener(marker, "click", function (e) {
-    if (infowindow.getMap()) {
-      infowindow.close();
-    } else {
-      infowindow.open(map, marker);
-    }
-  });
+var map = new daum.maps.Map(container, options);
 </script>

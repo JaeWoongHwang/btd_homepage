@@ -13,5 +13,6 @@
 //= require jquery
 //= require activestorage
 //= require fullpage.extensions.min.js
+//= require bootstrap
 //= require turbolinks
 //= require_tree .
